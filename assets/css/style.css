@@ -24,3 +24,68 @@ html, body {
 .logo-text span {
     color:#f9e0ae; 
 }
+
+/* ----------------------------- General ----------------------- */
+
+main {
+    min-height: 100%;
+}
+
+.section-heading {
+    text-align: center;
+    padding: 30px;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.copy-text {
+    font-size: 20px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+/* ----------------------------- Cards ----------------------- */
+
+#products-section {
+    margin: 30px; 
+}
+
+.card-padding {
+    padding: 40px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-border {
+    border: none;
+    padding: 2px;
+}
+
+.card-footer {
+    background-color: white;
+    border: none;
+}
+
+.image-size {
+    height: 280px;
+    width: 280px;
+}
+
+.card-img {
+    text-align: center;
+}
+
+/* ----------------------------- Button styles ----------------------- */
+
+
+.btn-warning {
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+.button-position {
+    text-align: center;
+ }
