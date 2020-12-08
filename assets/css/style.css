@@ -90,6 +90,56 @@ main {
     text-align: center;
  }
 
+ /* ---------------------- downlod-meditation-section -------------------------------- */
+
+#downlod-meditation-section {
+   
+    background-color: blueviolet;
+    padding: 20px;
+    background: url('../images/meditation2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.meditation-heading {
+    color: #ffd369;
+}
+
+/* Modal Popup */
+
+.signup-text {
+    text-align: center;
+    font-size: small;
+}
+
+#download-meditation-modal {
+    background: url('../images/meditation2.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
+/* ----------------------------- Newsletter Sign-up & Download meditation ----------------------- */
+
+.sign-up-margin {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.newsletter-form {
+    display: block;
+}
+
+.input-field-margin {
+    margin: 15px;
+}
+
+.newsletter-background {
+    background-color: #c3aed6;
+}
+
+.modal-headline {
+    color: #393b44;
+}
+
  /* ----------------------------- Footer ----------------------- */
 
 footer {
@@ -100,7 +150,6 @@ footer {
 }
 
 footer .footer-content {
-    /* border: 1px solid red; */
     height: 350px;
     display: flex;
     padding: 25px;
@@ -108,7 +157,6 @@ footer .footer-content {
 
 footer .footer-content .footer-section {
     flex: 1;
-    /* border: 1px solid white; */
 }
 
 footer .footer-content .about .contact span {
