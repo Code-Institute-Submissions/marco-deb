@@ -45,6 +45,15 @@ main {
     color: whitesmoke;
 }
 
+.policy-text {
+    padding-bottom: 55px;
+}
+
+.policy-text p {
+    font-size: 18px;
+    text-align: left;
+}
+
 /* ----------------------------- Cards ----------------------- */
 
 #products-section {
