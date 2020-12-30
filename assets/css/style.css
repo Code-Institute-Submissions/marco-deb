@@ -16,6 +16,11 @@ html, body {
     background-size: cover;
 }
 
+.marco-logo {
+    width: 40%;
+    border-radius: 5%;
+}
+
 .logo-text {
     /* color: #fc8621; */
     color: #ff8e71;  
