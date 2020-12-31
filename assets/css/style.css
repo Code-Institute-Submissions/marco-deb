@@ -86,6 +86,12 @@ main {
     text-align: left;
 }
 
+.copy-text-meditation {
+    font-size: 20px;
+    padding: 20px;
+    color: whitesmoke;
+}
+
 /* ----------------------------- Cards ----------------------- */
 
 #products-section {
@@ -131,11 +137,10 @@ main {
     text-align: center;
  }
 
- /* ---------------------- downlod-meditation-section -------------------------------- */
+/* ---------------------- downlod-meditation-section and newsletter section -------------------------------- */
 
 #downlod-meditation-section {
-   
-    background-color: blueviolet;
+   min-height: 500px;
     padding: 20px;
     background: url('../images/meditation2.jpg') no-repeat center center;
     background-size: cover;
@@ -145,7 +150,7 @@ main {
     color: #ffd369;
 }
 
-/* Modal Popup */
+/* ------ Modal Popup -----------*/
 
 .signup-text {
     text-align: center;
@@ -157,15 +162,12 @@ main {
     background-size: cover;
 }
 
-
-/* ----------------------------- Newsletter Sign-up & Download meditation ----------------------- */
-
 .sign-up-margin {
     margin-top: 30px;
     padding: 20px;
 }
 
-.newsletter-form {
+.signup-form {
     display: block;
 }
 
@@ -173,7 +175,7 @@ main {
     margin: 15px;
 }
 
-.newsletter-background {
+.signup-background {
     background-color: #c3aed6;
 }
 

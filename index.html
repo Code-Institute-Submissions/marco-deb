@@ -74,19 +74,22 @@
    
     <main> 
         <!-- I got the cards in this section from the Bootstrap documentation -->
-        <section id="products-section">
+        <section  class="products-section">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <h1 class="section-heading">HERE'S HOW MARCO CAN HELP YOU</h1>
+                        <!-- <h1 class="section-heading">HERE'S HOW MARCO CAN HELP YOU</h1> -->
+                        <h1 class="section-heading">Here's How Marco Can help you!</h1>
+
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
+
+                <div class="row justify-content-center card-bottom">
+                    <div class="col-lg-8">
                         <div class="card-group">
                             <div class="card card-border">
                                 <div class="card-img">
-                                    <img src="assets/images/meditation.jpg" class="card-img-top image-size" alt="...">
+                                    <img src="assets/images/learn-online2.PNG" class="card-img-top image-size" alt="Courses Image">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">COURSES</h5>
@@ -94,12 +97,12 @@
                                         additional content.</p>
                                 </div>
                                 <div class="card-footer button-position">
-                                    <button class="btn btn-warning">BROWSE COURSES</button>
+                                    <a href="courses.html"><button class="btn btn-warning">BROWSE COURSES</button></a>
                                 </div>
                             </div>
                             <div class="card card-border">
                                 <div class="card-img">
-                                    <img src="assets/images/books.jpg" class="card-img-top image-size" alt="...">
+                                    <img src="assets/images/BOOKS2.jpg" class="card-img-top image-size" alt="Books Image">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">BOOKS</h5>
@@ -107,21 +110,48 @@
                                         additional content.</p>
                                 </div>
                                 <div class="card-footer button-position">
-                                    <button class="btn btn-warning">BROWSE BOOKS</button>
+                                    <a href="books.html">
+                                        <button class="btn btn-warning">BROWSE BOOKS</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card-group">
+                            <div class="card card-border">
+                                <div class="card-img">
+                                    <a href="meditations.html">
+                                        <img src="assets/images/meditation-img2.png" class="card-img-top image-size"
+                                            alt="Meditation image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">MEDITATIONS</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                                <div class="card-footer button-position">
+                                    <a href="meditations.html"><button class="btn btn-warning">BROWSE
+                                            MEDITATIONS</button></a>
                                 </div>
                             </div>
                             <div class="card card-border">
                                 <div class="card-img">
-                                    <img src="assets/images/meditation.jpg" class="card-img-top image-size" alt="...">
+                                    <img src="assets/images/newspaper.jpg" class="card-img-top image-size" alt="Articles Image">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title">ARTICLES</h5>
-                                    <p class="card-text"> This is a wider card with supporting text below as a natural
-                                        lead-in to additional content. This card has even longer content than the first
-                                        to show that equal height action.</p>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
                                 </div>
                                 <div class="card-footer button-position">
-                                    <button class="btn btn-warning">BROWSE ARTICLES</button>
+                                    <a href="articles.html">
+                                        <button class="btn btn-warning">BROWSE ARTICLES</button>                          
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -130,21 +160,17 @@
             </div>
         </section>
 
-        <section id="downlod-meditation-section">
+       <section id="downlod-meditation-section">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <h1 class="section-heading meditation-heading">Download a meditation</h1>
+                        <h1 class="section-heading meditation-heading">Download free meditation</h1>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 card-img">
-                        <img src="assets/images/meditation.jpg" alt="">
-                    </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="copy-text">
+                    <div class="col-lg-6">
+                        <div class="copy-text-meditation">
                             <p>
                                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo veritatis ipsum
                                 reprehenderit, quidem suscipit fugiat nobis commodi maxime minus inventore! Saepe
@@ -158,7 +184,7 @@
                     <div class="col-lg-8 button-position">
                         <button type="button" class="btn btn-lg btn-warning" data-toggle="modal"
                             data-target="#download-meditation-modal">
-                            <i class="fas fa-download"></i> Download
+                            Download <i class="fas fa-download"></i> Meditation
                         </button>
                     </div>
                 </div>
@@ -174,27 +200,28 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <!--the code for this  Newsletter form i got from  https://bootsnipp.com/snippets/AlM7P -->
+                            <!--the code for this  signup form i got from  https://bootsnipp.com/snippets/AlM7P -->
                             <form action="https://formdump.codeinstitute.net/" target="_blank" method="POST"
-                                class="newsletter-background">
+                                class="signup-background">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-sm-12">
                                             <div class="content">
-                                                <h2 class="section-heading modal-headline">Download your meditation now.</h2>
+                                                <h2 class="section-heading modal-headline">Download your meditation now.
+                                                </h2>
                                                 <div class="signup-text">
                                                     <p>
                                                         Don't worry, we won't spam you with
                                                         <br>
-                                                        lot's newsletters. We respect your time. 
+                                                        lot's newsletters. We respect your time.
                                                         <br>
-                                                        Also, we will never give your 
+                                                        Also, we will never give your
                                                         <br>
                                                         mail away to a third party.
                                                     </p>
-                                                    
+
                                                 </div>
-                                                <div class="input-group newsletter-form">
+                                                <div class="input-group signup-form">
                                                     <div class="row input-field-margin">
                                                         <input id="name" type="text" name="name" class="form-control"
                                                             placeholder="Your name" required>
@@ -205,7 +232,9 @@
                                                     </div>
                                                     <span class="row input-group-btn input-field-margin">
                                                         <div class="col button-position">
-                                                            <button class="btn btn-lg btn-warning" type="submit"> <i class="fas fa-download"></i> Download Meditation</button>         
+                                                            <button class="btn btn-lg btn-info" type="submit">
+                                                                Download <i class="fas fa-download"></i>
+                                                                </button>
                                                         </div>
                                                     </span>
                                                 </div>
