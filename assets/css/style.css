@@ -16,6 +16,13 @@ html, body {
     background-size: cover;
 }
 
+#courses-banner {
+    height: 400px;
+	width: 100%;
+    background: url('../images/Butterfly-effect.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .marco-logo {
     width: 40%;
     border-radius: 5%;
@@ -35,6 +42,16 @@ html, body {
     text-transform: uppercase;
     font-size: 38px;
     margin-top: 40px;
+}
+
+.courses-banner-heading {
+    text-align: right;
+    margin-top: 180px;
+    padding: 45px;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #ffe5b9;
 }
 
 .banner-text {
