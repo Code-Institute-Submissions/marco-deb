@@ -17,3 +17,17 @@ function bodySection() {
     el = document.getElementById("body-section")
     el.classList.add("remove-body-section")
 }
+
+// I learned this code from https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style
+
+function small() {
+    document.getElementById('font-size').style.fontSize='20px'
+}
+
+function medium() {
+    document.getElementById('font-size').style.fontSize='26px'
+}
+
+function large() {
+    document.getElementById('font-size').style.fontSize='35px'
+}
