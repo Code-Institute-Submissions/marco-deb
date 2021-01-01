@@ -30,6 +30,13 @@ html, body {
     background-size: cover;
 }
 
+#meditation-banner {
+    height: 220px;
+	width: 100%;
+    background: url('../images/cosmic-sky.png') no-repeat center center;
+    background-size: cover;
+}
+
 .marco-logo {
     width: 40%;
     border-radius: 5%;
@@ -70,6 +77,15 @@ html, body {
     font-size: 38px;
     color: #ffe5b9;
     background: rgba(1,1,1, 0.4);
+}
+
+.banner-heading-meditations{
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #fecd1a;
+    margin-top: 47px;
 }
 
 .banner-text {
