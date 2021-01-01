@@ -23,6 +23,13 @@ html, body {
     background-size: cover;
 }
 
+#book-banner {
+    height: 220px;
+	width: 100%;
+    background: url('../images/books-banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
 .marco-logo {
     width: 40%;
     border-radius: 5%;
@@ -52,6 +59,17 @@ html, body {
     text-transform: uppercase;
     font-size: 38px;
     color: #ffe5b9;
+}
+
+.books-banner-heading {
+    text-align: center;
+    margin-top: 30px;
+    padding: 45px;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #ffe5b9;
+    background: rgba(1,1,1, 0.4);
 }
 
 .banner-text {
