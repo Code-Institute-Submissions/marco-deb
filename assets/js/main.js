@@ -1,3 +1,5 @@
+
+ 
 //  I got this code from  Code instutute’s basic Javascript Setting Properties - Part 2
  function lightTheme() {
     el = document.getElementById("mainDiv");
