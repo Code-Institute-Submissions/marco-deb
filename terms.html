@@ -19,7 +19,7 @@
         <!-- The navbar code I got from the bootstrap library -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
             <a href="index.html">
-                <h1 class="logo-text"><span>Marco</span>Deb</h1>
+                <img id="logo" class="marco-logo" src="assets/images/marcodeb-logo-small.png" alt="Marco Deb logo">
             </a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon"></span>
@@ -51,54 +51,129 @@
             </div>
         </nav>
     </header>
-    
 
-   <main>
-       <div class="container">
-           <div class="row justify-content-center">
-               <div class="col-lg-6 button-position button-dark policy-text">
-                   <button class="btn btn-dark ">Switch to dark background</button>
-                    <h2 class="section-heading">Terms</h2>
-                    <!-- I got all these terms from https://jayshetty.me/terms/ -->
-                    <p>
-                        Terms of Use 
+
+    <main>
+        <div class="container-fluid light" id="mainDiv">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 button-position button-dark policy-text">
+
+                    <div class="dark-light-button-container">
+                        <button class="btn btn-dark" onclick="darkTheme()">Dark background</button>
+                        <button class="btn btn-light" onclick="lightTheme()">Light background</button>
+                    </div>
+
+                    <h3 class="section-heading">Terms</h3>
+                    
+                    <div class="font-size-buttons button-position">
+                        <span class="small-text">Change font size</span>
                         <br>
-                        Last updated: August 20, 2020
-                    </p>
-                    <p>
-                        These terms of use are entered into by and between You and 108 Entertainment, Inc. (“Company,” “we,” or “us“). The following terms and conditions, together with any documents they expressly incorporate by reference (collectively, “Terms“), govern your use and access to our services, programs, courses, and websites, including www.marcodeb.com and all subdomains thereof, and include any content, functionality, and services offered on or through such services, programs, courses, and websites (collectively, the “Service“), whether accessed as a guest or a registered user.
-                    </p>
-                    <p>
-                        Please read the Terms of Use carefully before you start to use the Service. By using the Service, you accept and agree to be bound and abide by these Terms and our Privacy Policy, found at https://marcodeb.com/privacy-policy, incorporated herein by reference. If you do not want to agree to these Terms or the Privacy Policy, you must not access or use the Service.
-                    </p>
-                    <p>
-                        Please note: Section XIV of these Terms contains an arbitration clause and class action waiver that applies to all users. It affects how disputes with the Company are resolved. By accepting these Terms, you agree to be bound by this arbitration clause and class action waiver. Please read it carefully.
-                    </p>
-                    <p>
-                        THIS SERVICE DOES NOT PROVIDE MEDICAL CARE. We do not provide medical advice, diagnosis, or treatment, nor are we a medical service provider. Content on the Service, which may include text, graphics, images, or other information produced by us or obtained from third party content providers, and other material contained on the Service, are for informational purposes only. Nothing on this Service is intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified healthcare provider with any questions you may have regarding a medical condition. Never disregard professional medical advice or delay in seeking it because of something you have read, seen, or heard on the Service. If you think you have a medical emergency, call your doctor or 911 immediately. We do not recommend or endorse any specific tests, products, procedures, opinions  or other information or services that may be made available to you through the Service. Reliance on any information provided by us, or others appearing on the Service, or other visitors to the Service, is solely at your own risk.
-                    </p>
-                    <p>
-                        I. Changes to the Terms of Use. 
-                    </p>
-                    <p>
-                        We may revise and update these Terms from time to time at our sole discretion. All changes are effective immediately when we post them, and apply to all access to and use of the Service thereafter. Any changes to the dispute resolution provisions set out in Section XIV will not apply to any disputes for which the parties have actual notice (or to any claim that was filed) before the date the change is posted. If we make changes to these Terms, we will post the revised Terms on the Service and update the “Last Modified” date at the top of these Terms. We will also endeavor to send a notice to the email address that you provided to us in order to let you know about revisions. Your continued use of the Service following the posting of revised Terms or notification thereof by email means that you accept and agree to the changes. You are expected to check this page from time to time so you are aware of any new or additional terms, as they are binding on you.
-                    </p>
-                    <p>
-                        II. Requirements for Use of the Service
-                    </p>
-                    <p>
-                        a. <br> Eligibility. The Service is offered and available to users who are 18 years of age or older. By using this Service, you represent and warrant that you are of legal age to form a binding contract with us in your applicable jurisdiction. If you do not meet these requirements, you must not access or use the Service. The Service is not available to any users previously suspended or removed from the Service by us.
-                    </p>
-                    <p>
-                        b. <br> Devices. Use of, and secure access to, the Service may require compatible devices, Internet access, and certain software (fees may apply). Your device may require periodic updates and your experience and ability to access the Service may be affected by the performance of these factors. The latest version of applicable software may be required for certain transactions or features. You agree that meeting these requirements is your responsibility.
-                    </p>
-                    <p>
-                        c. <br> Availability of the Service. The Service, or any feature or part thereof, may not be available in all languages or in all countries and we make no representation that the Service, or any feature or part thereof, is appropriate or available for use in any particular location. To the extent you choose to access and use the Service, you do so at your own initiative and are responsible for compliance with any applicable laws. We reserve the right to withdraw or amend the Service, and any content or material we provide through the Service, in our sole discretion without notice. We will not be liable if for any reason all or any part of the Service is unavailable at any time or for any period. From time to time, we may restrict access to some parts of the Service, or the entire Service, to users, including registered users.
-                    </p>
-               </div>
-           </div>
-       </div>
-   </main>
+                        <a class="small" type="button" onclick="small()">
+                            A
+                        </a>
+                        <a class="medium" type="button" onclick="medium()">
+                            A
+                        </a>
+                        <a class="large" type="button" onclick="large()">
+                            A
+                        </a>
+                    </div>
+
+                    <div id="font-size">
+                        <!-- I got all this text from https://jayshetty.me/terms/  I modified them slightly-->
+                        <p>
+                            Terms of Use
+                            <br>
+                            Last updated: August 20, 2020
+                        </p>
+                        <p>
+                            These terms of use are entered into by and between You and 108 Entertainment, Inc.
+                            (“Company,” “we,” or “us“). The following terms and conditions, together with any documents
+                            they expressly incorporate by reference (collectively, “Terms“), govern your use and access
+                            to our services, programs, courses, and websites, including www.marcodeb.com and all
+                            subdomains thereof, and include any content, functionality, and services offered on or
+                            through such services, programs, courses, and websites (collectively, the “Service“),
+                            whether accessed as a guest or a registered user.
+                        </p>
+                        <p>
+                            Please read the Terms of Use carefully before you start to use the Service. By using the
+                            Service, you accept and agree to be bound and abide by these Terms and our Privacy Policy,
+                            found at https://marcodeb.com/privacy-policy, incorporated herein by reference. If you do
+                            not want to agree to these Terms or the Privacy Policy, you must not access or use the
+                            Service.
+                        </p>
+                        <p>
+                            Please note: Section XIV of these Terms contains an arbitration clause and class action
+                            waiver that applies to all users. It affects how disputes with the Company are resolved. By
+                            accepting these Terms, you agree to be bound by this arbitration clause and class action
+                            waiver. Please read it carefully.
+                        </p>
+                        <p>
+                            THIS SERVICE DOES NOT PROVIDE MEDICAL CARE. We do not provide medical advice, diagnosis, or
+                            treatment, nor are we a medical service provider. Content on the Service, which may include
+                            text, graphics, images, or other information produced by us or obtained from third party
+                            content providers, and other material contained on the Service, are for informational
+                            purposes only. Nothing on this Service is intended to be a substitute for professional
+                            medical advice, diagnosis, or treatment. Always seek the advice of your physician or other
+                            qualified healthcare provider with any questions you may have regarding a medical condition.
+                            Never disregard professional medical advice or delay in seeking it because of something you
+                            have read, seen, or heard on the Service. If you think you have a medical emergency, call
+                            your doctor or 911 immediately. We do not recommend or endorse any specific tests, products,
+                            procedures, opinions or other information or services that may be made available to you
+                            through the Service. Reliance on any information provided by us, or others appearing on the
+                            Service, or other visitors to the Service, is solely at your own risk.
+                        </p>
+                        <p>
+                            I. Changes to the Terms of Use.
+                        </p>
+                        <p>
+                            We may revise and update these Terms from time to time at our sole discretion. All changes
+                            are effective immediately when we post them, and apply to all access to and use of the
+                            Service thereafter. Any changes to the dispute resolution provisions set out in Section XIV
+                            will not apply to any disputes for which the parties have actual notice (or to any claim
+                            that was filed) before the date the change is posted. If we make changes to these Terms, we
+                            will post the revised Terms on the Service and update the “Last Modified” date at the top of
+                            these Terms. We will also endeavor to send a notice to the email address that you provided
+                            to us in order to let you know about revisions. Your continued use of the Service following
+                            the posting of revised Terms or notification thereof by email means that you accept and
+                            agree to the changes. You are expected to check this page from time to time so you are aware
+                            of any new or additional terms, as they are binding on you.
+                        </p>
+                        <p>
+                            II. Requirements for Use of the Service
+                        </p>
+                        <p>
+                            a. <br> Eligibility. The Service is offered and available to users who are 18 years of age
+                            or older. By using this Service, you represent and warrant that you are of legal age to form
+                            a binding contract with us in your applicable jurisdiction. If you do not meet these
+                            requirements, you must not access or use the Service. The Service is not available to any
+                            users previously suspended or removed from the Service by us.
+                        </p>
+                        <p>
+                            b. <br> Devices. Use of, and secure access to, the Service may require compatible devices,
+                            Internet access, and certain software (fees may apply). Your device may require periodic
+                            updates and your experience and ability to access the Service may be affected by the
+                            performance of these factors. The latest version of applicable software may be required for
+                            certain transactions or features. You agree that meeting these requirements is your
+                            responsibility.
+                        </p>
+                        <p>
+                            c. <br> Availability of the Service. The Service, or any feature or part thereof, may not be
+                            available in all languages or in all countries and we make no representation that the
+                            Service, or any feature or part thereof, is appropriate or available for use in any
+                            particular location. To the extent you choose to access and use the Service, you do so at
+                            your own initiative and are responsible for compliance with any applicable laws. We reserve
+                            the right to withdraw or amend the Service, and any content or material we provide through
+                            the Service, in our sole discretion without notice. We will not be liable if for any reason
+                            all or any part of the Service is unavailable at any time or for any period. From time to
+                            time, we may restrict access to some parts of the Service, or the entire Service, to users,
+                            including registered users.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <div class="footer-content">
@@ -135,8 +210,7 @@
                     <a href="#">
                         <li>Articles</li>
                     </a>
-                    <a href="#" data-toggle="modal"
-                    data-target="#download-meditation-modal">
+                    <a href="#" data-toggle="modal" data-target="#download-meditation-modal">
                         <li>Download Meditation <i class="fas fa-download"></i></li>
                     </a>
                     <a href="#">
@@ -186,7 +260,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
