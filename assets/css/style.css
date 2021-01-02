@@ -247,6 +247,69 @@ main {
     color: coral;
 }
 
+/* ---------------------- Quiz-section -------------------------------- */
+
+#quiz-section {
+    padding: 40px;
+     height: fit-content;
+}
+
+#emotions-section {
+    display: none;
+}
+
+#body-section {
+    display: none;
+}
+
+.remove-body-section {
+    background-color: salmon;
+}
+
+#mind-section {
+    display: none;
+}
+
+.check-icon:hover {
+    background-color: #54e346;
+    color: black;
+}
+
+.quiz-text {
+    font-size: 20px;
+    text-align: left;
+}
+
+.quiz-section-heading {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.quiz-heading-container {
+    margin-bottom: 25px;
+}
+
+.quiz-button {
+    margin-bottom: 7px;
+    border: none;
+    width: 120px;
+}
+
+.body-button {
+    background-color: #59886b;
+}
+
+.mind-button {
+    background-color: #ffc85c;
+}
+
+.emotions-button {
+    background-color: #c05555;
+}
+
+
   /* ----------------------------- Cards ----------------------- */
 
 .products-section {
