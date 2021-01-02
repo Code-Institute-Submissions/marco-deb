@@ -53,26 +53,61 @@
     </header>
     
 
-    <main class="">
-<!------------------ About Section -------------->
+    <main id="mainDiv">
         <div class="container">
             <div class="row justify-content-center">
+                <div class="col-lg-4 button-position button-dark">
+                    <div>
+                        <button class="btn btn-dark" onclick="darkTheme()">Dark background</button>
+                        <button class="btn btn-light" onclick="lightTheme()">Light background</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col image-center">
                     <img class="image-round marco-img" src="assets/images/marco-deb.jpg" alt="Marco Deb image">
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-8 copy-text">
+                <div class="col-lg-6 copy-text">
                     <h1 class="section-heading">About Marco Deb</h1>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ut, culpa eos ea inventore, sapiente non reiciendis, dolor enim maxime consequuntur quos. Recusandae ipsam, eius aliquam fugit sequi distinctio nobis.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit corrupti eum et nesciunt quos omnis, accusantium suscipit dolores itaque ad ullam, officiis reiciendis quae!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus facilis, harum et culpa nesciunt. Facilis impedit modi atque blanditiis rerum excepturi ut beatae, ea vel, expedita consectetur nemo enim!
-                    </p>
+                    <div class="font-size-buttons button-position">
+                        <span class="small-text">Change font size</span> 
+                        <br>
+                        <a class="small" type="button" onclick="small()">
+                            A
+                        </a>
+                        <a class="medium" type="button" onclick="medium()">
+                            A
+                        </a>
+                        <a class="large" type="button" onclick="large()">
+                            A
+                        </a>
+                    </div>
+
+                    <div id="font-size">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores ut, culpa eos ea inventore,
+                            sapiente non reiciendis, dolor enim maxime consequuntur quos. Recusandae ipsam, eius aliquam
+                            fugit sequi distinctio nobis.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit corrupti eum et
+                            nesciunt quos omnis, accusantium suscipit dolores itaque ad ullam, officiis reiciendis quae!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellendus facilis, harum et
+                            culpa nesciunt. Facilis impedit modi atque blanditiis rerum excepturi ut beatae, ea vel,
+                            expedita consectetur nemo enim!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci accusantium quo atque neque
+                            sequi doloribus natus veritatis officia delectus. Minus.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, quas at? Quia, natus placeat
+                            iure necessitatibus aspernatur atque illum minus sapiente sunt! Quaerat ratione perspiciatis
+                            facilis ad consequuntur hic quasi error. Pariatur molestias impedit exercitationem earum ipsam
+                            sed aspernatur consequuntur?
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -169,7 +204,7 @@
                 </div>
             </div>
         </section>
-       
+     
     </main>
 
     <footer>
@@ -256,7 +291,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
-    </script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
