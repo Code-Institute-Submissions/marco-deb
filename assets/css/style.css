@@ -249,15 +249,18 @@ main {
 
 /* ---------------------- Quiz-section -------------------------------- */
 
-#quiz-section {
+#quiz-section-wrapper {
     padding: 40px;
+    min-height: 200px;
+	width: 100%;
+    background: url('../images/cosmic-sky.png') no-repeat center center;
+    background-size: cover;
 }
-.body-mind-section-heading {
-    text-align: center;
-    font-family: "Exo", sans-serif;
-    text-transform: uppercase;
-    font-size: 20px;
+
+.body-mind-wrapper {
+    background-color: white;
 }
+
 
 #emotions-section {
     display: none;
@@ -271,11 +274,22 @@ main {
     display: none;
 }
 
+.check-icon:hover {
+    background-color: #54e346;
+    color: black;
+}
+
+.quiz-text {
+    font-size: 20px;
+    text-align: left;
+}
+
 .quiz-section-heading {
     text-align: center;
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-size: 28px;
+    color: #ffd369;
 }
 
 .quiz-heading-container {
@@ -300,10 +314,6 @@ main {
     background-color: #c05555;
 }
 
-hr {
-    height: 1px;
-    background-color: #333; 
-}
 
   /* ----------------------------- Cards ----------------------- */
 

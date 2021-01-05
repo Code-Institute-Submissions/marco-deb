@@ -70,305 +70,601 @@
     </section>
    
     <main> 
-        <section id="quiz-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 quiz-heading-container">
-                        <h1 class="quiz-section-heading">Hi There!</h1>
-                        <h1 class="quiz-section-heading">What do you want to elevate?</h1>
+
+         <div id="quiz-section-wrapper">
+            <section>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 quiz-heading-container">
+                            <h1 class="quiz-section-heading">Hi There!</h1>
+                            <h1 class="quiz-section-heading">What do you want to elevate?</h1>
+                        </div>
+                    </div>
+                
+                    <div class="row justify-content-center">
+                        <div id="body-mind-buttons" class="col-lg-6 button-position">
+                            <button class="btn btn-lg quiz-button body-button" onclick="slideToggleElement('#body-section', '.body-mind-sections')">
+                                Body
+                            </button>
+                            <button class="btn btn-lg quiz-button mind-button" onclick="slideToggleElement('#mind-section', '.body-mind-sections')">
+                                Mind
+                            </button>
+                            <button class="btn btn-lg quiz-button emotions-button" onclick="slideToggleElement('#emotions-section', '.body-mind-sections')">
+                                Emotions
+                            </button>
+                        </div> 
                     </div>
                 </div>
+            </section>
             
-                <div class="row justify-content-center">
-                    <div id="body-mind-buttons" class="col-lg-6 button-position">
-                        <button class="btn btn-lg quiz-button body-button" onclick="slideToggleElement('#body-section', '.body-mind-sections')">
-                            Body
-                        </button>
-                        <button class="btn btn-lg quiz-button mind-button" onclick="slideToggleElement('#mind-section', '.body-mind-sections')">
-                            Mind
-                        </button>
-                        <button class="btn btn-lg quiz-button emotions-button" onclick="slideToggleElement('#emotions-section', '.body-mind-sections')">
-                            Emotions
-                        </button>
-                    </div> 
-                </div>
-            </div>
-        </section>
-
-        <section id="body-section" class="body-mind-sections">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        
-                        <h1 class="body-mind-section-heading">Courses to elevate Elevate your body</h1>
-
-                    </div>
-                </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-8">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="happy-body-training.html">
-                                        <img src="assets/images/happy-body.jpg" class="card-img-top image-size" alt="Happy Body Training Cover Image">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Happy Body Training</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="happy-body-training.html"><button class="btn btn-warning">Read More</button></a>
-                                </div>
-                            </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="breathe.html">
-                                        <img src="assets/images/breathe.jpg" class="card-img-top image-size" alt="Breathe course cover iage">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Breathe well</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="breathe.html">
-                                        <button class="btn btn-warning">Read More</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="pure-love-chi-gong.html">
-                                        <img src="assets/images/pure-love.JPG" class="card-img-top image-size"
-                                            alt="Pure Love chi gong cover image">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Pure Love Chi Gong</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="meditations.html"><button class="btn btn-warning">Read More
-                                            </button></a>
-                                </div>
-                            </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="power-of-sound.html">
-                                        <img src="assets/images/power-of-sound.JPG" class="card-img-top image-size" alt="Power of sound course cover image">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Power Of Sound</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="power-of-sound.html">
-                                        <button class="btn btn-warning">Read More</button>                          
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
+            <div class="body-mind-wrapper">
+                <section id="body-section" class="body-mind-sections">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                
+                                <h1 class="section-heading">Courses to Elevate your body</h1>
         
-        <section id="mind-section" class="body-mind-sections">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="body-mind-section-heading">Courses and books to Elevate your Mind</h1>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-8">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="happy-mind-training.html">
-                                        <img src="assets/images/happy-mind.JPG" class="card-img-top image-size" alt="Happy Mind Training course Cover">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Happy Mind Training</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="happy-mind-training.html"><button class="btn btn-warning">Read More</button></a>
+                            </div>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-8">
+                                <div class="card-group">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/happy-body.jpg" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Happy Body Training</h5>
+                                            <p><span class="copy-text">Online course</span></p>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="courses.html"><button class="btn btn-warning">Read More</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <a href="breathe.html">
+                                                <img src="assets/images/breathe.jpg" class="card-img-top image-size" alt="Breathe well course cover image">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Breathe well</h5>
+                                            <p><span class="copy-text">Online course</span></p>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="breathe.html">
+                                                <button class="btn btn-warning">Read More</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="the-life-method.html">
-                                        <img src="assets/images/life-method.jpg" class="card-img-top image-size" alt="The LIFE method book cover">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">The Life Method</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="the-life-method.html">
-                                        <button class="btn btn-warning">Read More</button>
-                                    </a>
+                        </div>
+        
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="card-group">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <a href="meditations.html">
+                                                <img src="assets/images/pure-love.JPG" class="card-img-top image-size"
+                                                    alt="Meditation image">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pure Love Chi Gong</h5>
+                                            <p><span class="copy-text">Online course</span></p>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="meditations.html"><button class="btn btn-warning">Read More
+                                                    </button></a>
+                                        </div>
+                                    </div>
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/power-of-sound.JPG" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Power Of Sound</h5>
+                                            <p><span class="copy-text">Audio course</span></p>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="articles.html">
+                                                <button class="btn btn-warning">Read More</button>                          
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-8">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="creative-abundance.html">
-                                        <img src="assets/images/creative-abundance.jpg" class="card-img-top image-size"
-                                            alt="Cretive Abundance book cover image">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Creative Abundance</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="creative-abundance.html"><button class="btn btn-warning">Read More</button></a>
+                </section> 
+                
+                <section id="mind-section" class="body-mind-sections">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h1 class="section-heading">Courses and books to Elevate your mind</h1>
+                            </div>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-8">
+                                <div class="card-group">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/happy-mind.JPG" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Happy Mind Training</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="courses.html"><button class="btn btn-warning">Read More</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/life-method.jpg" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Life Method</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="books.html">
+                                                <button class="btn btn-warning">Read More</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="succeaseful-entrepreneur.html">
-                                        <img src="assets/images/succeaseful-cover.PNG" class="card-img-top image-size" alt="The Succeaseful Entrepreneur book cover image">
-                                    </a>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-8">
+                                <div class="card-group">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <a href="meditations.html">
+                                                <img src="assets/images/creative-abundance.jpg" class="card-img-top image-size"
+                                                    alt="Meditation image">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Creative Abundance</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="meditations.html"><button class="btn btn-warning">Read More
+                                                    </button></a>
+                                        </div>
+                                    </div>
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/succeaseful-cover.PNG" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Succ<i class="ease-color">ease</i>ful entrepreneur</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="articles.html">
+                                                <button class="btn btn-warning">Read More</button>                          
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">The Succ<i class="ease-color">ease</i>ful entrepreneur</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="succeaseful-entrepreneur.html">
-                                        <button class="btn btn-warning">Read More</button>                          
-                                    </a>
+                            </div>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-4">
+                                <div class="card-group ">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <a href="believe-it.html">
+                                                <img src="assets/images/believe-it.PNG" class="card-img-top image-size" alt="Believe It book cover image">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Believe It</h5>
+                                            <p class="card-text">This card has supporting text below as a natural lead-in to
+                                                additional content.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="believe-it.html">
+                                                <button class="btn btn-warning">Read More</button>                          
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-4">
-                        <div class="card-group ">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="believe-it.html">
-                                        <img src="assets/images/believe-it.PNG" class="card-img-top image-size" alt="Believe It book cover image">
-                                    </a>
+                </section> 
+        
+                <section id="emotions-section" class="body-mind-sections">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <h1 class="section-heading">Books and Courses to transform and Elevate your emotions</h1>
+                            </div>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-8">
+                                <div class="card-group">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/letting-go.jpg" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Words About Letting Go</h5>
+                                            <p class="card-text">What you can feel you can heal. Letting go is easy once you know how to do it.</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="courses.html"><button class="btn btn-warning">Read More</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/love-effect2.JPG" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">The Love Effect</h5>
+                                            <p class="card-text">Tap inte the energy of love to heal and transform your life</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="books.html">
+                                                <button class="btn btn-warning">Read More</button>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Believe It</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="believe-it.html">
-                                        <button class="btn btn-warning">Read More</button>                          
-                                    </a>
+                            </div>
+                        </div>
+        
+                        <div class="row justify-content-center card-bottom">
+                            <div class="col-lg-4">
+                                <div class="card-group ">
+                                    <div class="card card-border">
+                                        <div class="card-img">
+                                            <img src="assets/images/inner-smile.jpg" class="card-img-top image-size" alt="...">
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Internal Smile Meditation</h5>
+                                            <p class="card-text">Heal your emotions with the power of internal smiling</p>
+                                        </div>
+                                        <div class="card-footer button-position">
+                                            <a href="articles.html">
+                                                <button class="btn btn-warning">Read More</button>                          
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
-        </section> 
+        </div>  
 
-        <section id="emotions-section" class="body-mind-sections">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="body-mind-section-heading">Courses and books to Elevate your Emotions</h1>
+        <!-- <div class="test wrapper">
+            <section id="quiz-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 quiz-heading-container">
+                            <h1 class="quiz-section-heading">Hi There!</h1>
+                            <h1 class="quiz-section-heading">What do you want to elevate?</h1>
+                        </div>
+                    </div>
+                
+                    <div class="row justify-content-center">
+                        <div id="body-mind-buttons" class="col-lg-6 button-position">
+                            <button class="btn btn-lg quiz-button body-button" onclick="slideToggleElement('#body-section', '.body-mind-sections')">
+                                Body
+                            </button>
+                            <button class="btn btn-lg quiz-button mind-button" onclick="slideToggleElement('#mind-section', '.body-mind-sections')">
+                                Mind
+                            </button>
+                            <button class="btn btn-lg quiz-button emotions-button" onclick="slideToggleElement('#emotions-section', '.body-mind-sections')">
+                                Emotions
+                            </button>
+                        </div> 
                     </div>
                 </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-8">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="letting-go.html">
-                                        <img src="assets/images/letting-go.jpg" class="card-img-top image-size" alt="Words about letting go book cover image">
-                                    </a>
+            </section>
+    
+            <section id="body-section" class="body-mind-sections">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            
+                            <h1 class="body-mind-section-heading">Courses to Elevate your body</h1>
+    
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-8">
+                            <div class="card-group">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="happy-body-training.html">
+                                            <img src="assets/images/happy-body.jpg" class="card-img-top image-size" alt="Happy Body Training Cover Image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Happy Body Training</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="happy-body-training.html"><button class="btn btn-warning">Read More</button></a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Words About Letting Go</h5>
-                                    <p class="card-text">What you can feel you can heal. Letting go is easy once you know how to do it.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="letting-go.html"><button class="btn btn-warning">Read More</button></a>
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="breathe.html">
+                                            <img src="assets/images/breathe.jpg" class="card-img-top image-size" alt="Breathe course cover iage">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Breathe well</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="breathe.html">
+                                            <button class="btn btn-warning">Read More</button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="the-love-effect.html">
-                                        <img src="assets/images/love-effect2.JPG" class="card-img-top image-size" alt="The Love Effect book cover image">
-                                    </a>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="card-group">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="pure-love-chi-gong.html">
+                                            <img src="assets/images/pure-love.JPG" class="card-img-top image-size"
+                                                alt="Pure Love chi gong cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pure Love Chi Gong</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="meditations.html"><button class="btn btn-warning">Read More
+                                                </button></a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">The Love Effect</h5>
-                                    <p class="card-text">Tap inte the energy of love to heal and transform your life</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="the-love-effect.html">
-                                        <button class="btn btn-warning">Read More</button>
-                                    </a>
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="power-of-sound.html">
+                                            <img src="assets/images/power-of-sound.JPG" class="card-img-top image-size" alt="Power of sound course cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Power Of Sound</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="power-of-sound.html">
+                                            <button class="btn btn-warning">Read More</button>                          
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-4">
-                        <div class="card-group ">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="internal-smile.html">
-                                        <img src="assets/images/inner-smile.jpg" class="card-img-top image-size" alt="Inner smile course, cover image">
-                                    </a>
+            </section> 
+            
+            <section id="mind-section" class="body-mind-sections">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h1 class="body-mind-section-heading">Courses and books to Elevate your Mind</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-8">
+                            <div class="card-group">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="happy-mind-training.html">
+                                            <img src="assets/images/happy-mind.JPG" class="card-img-top image-size" alt="Happy Mind Training course Cover">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Happy Mind Training</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="happy-mind-training.html"><button class="btn btn-warning">Read More</button></a>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">Internal Smile Meditation</h5>
-                                    <p class="card-text">Heal your emotions with the power of internal smiling</p>
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="the-life-method.html">
+                                            <img src="assets/images/life-method.jpg" class="card-img-top image-size" alt="The LIFE method book cover">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Life Method</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="the-life-method.html">
+                                            <button class="btn btn-warning">Read More</button>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="card-footer button-position">
-                                    <a href="internal-smile.html">
-                                        <button class="btn btn-warning">Read More</button>                          
-                                    </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-8">
+                            <div class="card-group">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="creative-abundance.html">
+                                            <img src="assets/images/creative-abundance.jpg" class="card-img-top image-size"
+                                                alt="Cretive Abundance book cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Creative Abundance</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="creative-abundance.html"><button class="btn btn-warning">Read More</button></a>
+                                    </div>
+                                </div>
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="succeaseful-entrepreneur.html">
+                                            <img src="assets/images/succeaseful-cover.PNG" class="card-img-top image-size" alt="The Succeaseful Entrepreneur book cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Succ<i class="ease-color">ease</i>ful entrepreneur</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="succeaseful-entrepreneur.html">
+                                            <button class="btn btn-warning">Read More</button>                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-4">
+                            <div class="card-group ">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="believe-it.html">
+                                            <img src="assets/images/believe-it.PNG" class="card-img-top image-size" alt="Believe It book cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Believe It</h5>
+                                        <p class="card-text">This card has supporting text below as a natural lead-in to
+                                            additional content.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="believe-it.html">
+                                            <button class="btn btn-warning">Read More</button>                          
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section> 
+    
+            <section id="emotions-section" class="body-mind-sections">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h1 class="body-mind-section-heading">Courses and books to Elevate your Emotions</h1>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-8">
+                            <div class="card-group">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="letting-go.html">
+                                            <img src="assets/images/letting-go.jpg" class="card-img-top image-size" alt="Words about letting go book cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Words About Letting Go</h5>
+                                        <p class="card-text">What you can feel you can heal. Letting go is easy once you know how to do it.</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="letting-go.html"><button class="btn btn-warning">Read More</button></a>
+                                    </div>
+                                </div>
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="the-love-effect.html">
+                                            <img src="assets/images/love-effect2.JPG" class="card-img-top image-size" alt="The Love Effect book cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Love Effect</h5>
+                                        <p class="card-text">Tap inte the energy of love to heal and transform your life</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="the-love-effect.html">
+                                            <button class="btn btn-warning">Read More</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center card-bottom">
+                        <div class="col-lg-4">
+                            <div class="card-group ">
+                                <div class="card card-border">
+                                    <div class="card-img">
+                                        <a href="internal-smile.html">
+                                            <img src="assets/images/inner-smile.jpg" class="card-img-top image-size" alt="Inner smile course, cover image">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Internal Smile Meditation</h5>
+                                        <p class="card-text">Heal your emotions with the power of internal smiling</p>
+                                    </div>
+                                    <div class="card-footer button-position">
+                                        <a href="internal-smile.html">
+                                            <button class="btn btn-warning">Read More</button>                          
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>  -->
 
         <hr>
         <!-- I got the cards in this section from the Bootstrap documentation -->
