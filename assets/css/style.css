@@ -251,7 +251,12 @@ main {
 
 #quiz-section {
     padding: 40px;
-    /* min-height: 400px; */
+}
+.body-mind-section-heading {
+    text-align: center;
+    font-family: "Exo", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 #emotions-section {
@@ -264,16 +269,6 @@ main {
 
 #mind-section {
     display: none;
-}
-
-.check-icon:hover {
-    background-color: #54e346;
-    color: black;
-}
-
-.quiz-text {
-    font-size: 20px;
-    text-align: left;
 }
 
 .quiz-section-heading {
@@ -305,6 +300,11 @@ main {
     background-color: #c05555;
 }
 
+hr {
+    height: 1px;
+    background-color: #333; 
+}
+
   /* ----------------------------- Cards ----------------------- */
 
 .products-section {
@@ -329,9 +329,9 @@ main {
     border: none;
 }
 
-.card-bottom {
+/* .card-bottom {
     padding-bottom: 30px;
-}
+} */
 
 .image-size {
     height: 250px;
@@ -358,6 +358,10 @@ main {
     padding: .7rem 1.3rem;
     line-height: 1.3rem;
     background-color: #ffc85c;
+}
+
+.btn-dark {
+    margin-bottom: 5px;
 }
 
 .button-position {
