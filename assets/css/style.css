@@ -251,7 +251,7 @@ main {
 
 #quiz-section {
     padding: 40px;
-     height: fit-content;
+    /* min-height: 400px; */
 }
 
 #emotions-section {
@@ -260,10 +260,6 @@ main {
 
 #body-section {
     display: none;
-}
-
-.remove-body-section {
-    background-color: salmon;
 }
 
 #mind-section {
@@ -308,7 +304,6 @@ main {
 .emotions-button {
     background-color: #c05555;
 }
-
 
   /* ----------------------------- Cards ----------------------- */
 

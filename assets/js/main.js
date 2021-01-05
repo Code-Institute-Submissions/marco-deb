@@ -31,3 +31,10 @@ function medium() {
 function large() {
     document.getElementById('font-size').style.fontSize='35px'
 }
+
+//------------------------------------
+
+function slideToggleElement(elementToShow, elementToHide) {
+    $(elementToHide).slideUp();
+    $(elementToShow).slideDown();
+}
