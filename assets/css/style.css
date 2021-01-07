@@ -131,7 +131,7 @@ main {
 
 .copy-text {
     font-size: 20px;
-    padding: 45px;
+    padding: 20px;
 }
 
 .copy-text-meditation {
@@ -167,6 +167,10 @@ main {
     color: #444;
     line-height: 1.5rem;
     font-size: 1.2em;
+  }
+
+  .contact-form-wrapper {
+      margin-bottom: 30PX;
   }
 
   .price {
@@ -339,9 +343,6 @@ main {
     border: none;
 }
 
-/* .card-bottom {
-    padding-bottom: 30px;
-} */
 
 .image-size {
     height: 250px;
