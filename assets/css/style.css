@@ -565,9 +565,9 @@ footer .footer-content .links ul a:hover {
 footer .footer-content .contact-form .contact-input {
     background: #272727; 
     color: #bebdbd; 
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     line-height: 1.5rem;
-    padding: .7rem 1.4rem;
+    padding: .3rem 1rem;
     border: none;
 }
 
