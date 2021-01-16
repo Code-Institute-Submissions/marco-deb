@@ -47,16 +47,10 @@
                         <a href="meditations.html" class="nav-link">Meditations</a>
                     </li>
                     <li class="nav-item">
-                        <a href="articles.html" class="nav-link">Articles</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Connect</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="download.html" class="nav-link">download</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -455,7 +449,7 @@
                             <div class="card card-border">
                                 <div class="card-img">
                                     <a href="meditations.html">
-                                        <img src="assets/images/meditation-img2.png" class="card-img-top image-size"
+                                        <img src="assets/images/meditation-img1.png" class="card-img-top image-size"
                                             alt="Meditation image">
                                     </a>
                                 </div>
@@ -467,21 +461,6 @@
                                 <div class="card-footer button-position">
                                     <a href="meditations.html"><button class="btn btn-warning">BROWSE
                                             MEDITATIONS</button></a>
-                                </div>
-                            </div>
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <img src="assets/images/newspaper.jpg" class="card-img-top image-size" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">ARTICLES</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="articles.html">
-                                        <button class="btn btn-warning">BROWSE ARTICLES</button>                          
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -510,20 +489,6 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- <div class="center-form">
-                    <form onsubmit="return sendMail(this);" method="POST">
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-
-                        <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary" onclick="downloadMessage()">Send Project Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div> -->
 
                 <div class="row justify-content-center">
                     <div class="col-lg-8 button-position">
@@ -639,21 +604,17 @@
                 </div>
             </div>
 
-            <!-- Many parts of this footer I got from following the instructions from this tutorial https://www.youtube.com/watch?v=o-cKmAeNJiA&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=7. More on that in the README.md -->
             <div class="footer-section contact-form">
                 <h3>Contact me</h3>
                 <br>
-                <form action="index.html" method="POST">
-                    <input class="text-input contact-input" type="text" name="" placeholder="Name">
+                <form onsubmit="return send(this);" method="POST">
+                    <input class="text-input contact-input" id="fullname" type="text" name="name" placeholder="Name" required>
                     <br>
-                    <input class="text-input contact-input" type="email" name="" id="" placeholder="Your Email">
+                    <input class="text-input contact-input" type="email" name="email" id="emailaddress" placeholder="Your Email" required>
                     <br>
-                    <input class="text-input contact-input" type="text" placeholder="Subject">
+                    <textarea class="text-input contact-input" name="projectsummary" id="projectsummary" placeholder="Your message..." required></textarea>
                     <br>
-                    <textarea class="text-input contact-input" name="message" placeholder="Your message..."></textarea>
-                    <br>
-                    <button type="submit" class="btn btn-info contact-btn"><i class="fas fa-envelope"></i>
-                        Send</button>
+                    <button type="submit" class="btn btn-warning contact-btn"><i class="fas fa-envelope"></i>Send</button>
                 </form>
             </div>
         </div>
