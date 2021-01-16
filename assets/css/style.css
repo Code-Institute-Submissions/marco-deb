@@ -16,8 +16,8 @@ html, body {
 #banner-image {
 	height: 500px;
 	width: 100%;
-    background: url('../images/meditation1.jpg') no-repeat center center;
-    /* background: url('../images/Butterfly-effect.jpg') no-repeat center center; */
+    /* background: url('../images/meditation1.jpg') no-repeat center center; */
+    background: url('../images/meditation-nature.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -186,6 +186,7 @@ main {
     text-transform: uppercase;
     font-size: 38px;
     margin-top: 40px;
+    color: black;
 }
 
 .banner-heading {
@@ -196,26 +197,6 @@ main {
     font-size: 38px;
 }
 
-.courses-banner-heading {
-    text-align: right;
-    margin-top: 180px;
-    padding: 45px;
-    font-family: "Exo", sans-serif;
-    text-transform: uppercase;
-    font-size: 38px;
-    color: #ffe5b9;
-}
-
-.books-banner-heading {
-    text-align: center;
-    margin-top: 30px;
-    padding: 45px;
-    font-family: "Exo", sans-serif;
-    text-transform: uppercase;
-    font-size: 38px;
-    color: #ffe5b9;
-    background: rgba(1,1,1, 0.4);
-}
 
 .banner-text {
   margin-top: 20px;
@@ -223,28 +204,18 @@ main {
 
 .banner-text a {
     text-decoration: none;
-    color: #393e46;
+    color: black;
     transition: all .4s;
 }
 
 .banner-text a:hover {
     text-decoration: none;
-    color: #707070;
+    color: rgb(167, 104, 36);
     transition: all .4s;
 }
 
 .banner-text-small {
     font-size: 15px;
-}
-
-
-.banner-heading-meditations{
-    text-align: center;
-    font-family: "Exo", sans-serif;
-    text-transform: uppercase;
-    font-size: 45px;
-    color: #fecd1a;
-    margin-top: 47px;
 }
 
 .ease-color{
