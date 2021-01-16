@@ -77,7 +77,162 @@
         </div>     
     </section>
 
-    <main>
+    <main> 
+
+        <!-- I got the cards in this section from the Bootstrap documentation -->
+        <section class="products-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="section-heading">HERE’S HOW MARCO CAN HELP</h1>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center card-bottom">
+                    <div class="col-lg-10">
+                        <div class="card-group">
+                            <div class="card card-border">
+                                <div class="card-img">
+                                    <img src="assets/images/learn-online2.PNG" class="card-img-top image-size" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">COURSES</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                                <div class="card-footer button-position">
+                                    <a href="courses.html"><button class="btn btn-warning">BROWSE COURSES</button></a>
+                                </div>
+                            </div>
+
+                            <div class="card card-border">
+                                <div class="card-img">
+                                    <img src="assets/images/BOOKS2.jpg" class="card-img-top image-size" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">BOOKS</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                                <div class="card-footer button-position">
+                                    <a href="books.html">
+                                        <button class="btn btn-warning">BROWSE BOOKS</button>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="card card-border">
+                                <div class="card-img">
+                                    <a href="meditations.html">
+                                        <img src="assets/images/meditation-img1.png" class="card-img-top image-size"
+                                            alt="Meditation image">
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">MEDITATIONS</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to
+                                        additional content.</p>
+                                </div>
+                                <div class="card-footer button-position">
+                                    <a href="meditations.html"><button class="btn btn-warning">BROWSE
+                                            MEDITATIONS</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+        <section id="downlod-meditation-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="section-heading meditation-heading">Download free meditation</h1>
+                    </div>
+                </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="copy-text-meditation">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo veritatis ipsum
+                                reprehenderit, quidem suscipit fugiat nobis commodi maxime minus inventore! Saepe
+                                cupiditate soluta dolor culpa rem quod officia esse fuga iusto aliquid, eius doloremque
+                                dolorem, eligendi commodi harum et ut alias cum natus reiciendis quo!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 button-position">
+                        <button type="button" class="btn btn-lg btn-warning" data-toggle="modal"
+                            data-target="#download-meditation-modal">
+                            Download <i class="fas fa-download"></i> Meditation
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="download-meditation-modal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!--the code for this  signup form i got from  https://bootsnipp.com/snippets/AlM7P -->
+                            <form class="input-group signup-form signup-background" onsubmit="return sendMail(this);" method="POST">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <div class="content">
+                                                <h2 class="section-heading modal-headline">Download your meditation now.
+                                                </h2>
+                                                <div class="signup-text">
+                                                    <p>
+                                                        A link to where you can download
+                                                        <br>
+                                                        the meditation will be sent 
+                                                        <br>
+                                                        to your email.
+                                                    </p>
+
+                                                </div>
+                                                <div class="input-group signup-form">
+                                                    <div class="row input-field-margin">
+                                                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                                                    </div>
+                                                    <div class="row input-field-margin">
+                                                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
+                                                    </div>
+                                                    <span class="row input-group-btn input-field-margin">
+                                                        <div class="col button-position">
+                                                            <button class="btn btn-lg btn-info" type="submit" onclick="downloadMessage()">
+                                                                Download <i class="fas fa-download"></i>
+                                                                </button>
+                                                        </div>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
         <div id="quiz-section-wrapper">
             <section>
                 <div class="container">
@@ -203,7 +358,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h1 class="section-heading">Elevate your Mind</h1>
+                                <h1 class="section-heading">COURSES AND BOOKS TO ELEVATE YOUR MIND</h1>
                             </div>
                         </div>
         
@@ -319,7 +474,7 @@
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
-                                <h1 class="section-heading">Elevate your Emotions</h1>
+                                <h1 class="section-heading">Books to elevate your emotions</h1>
                             </div>
                         </div>
         
@@ -362,187 +517,10 @@
                             </div>
                         </div>
         
-                        <div class="row justify-content-center card-bottom">
-                            <div class="col-lg-4">
-                                <div class="card-group ">
-                                    <div class="card card-border">
-                                        <div class="card-img">
-                                            <a href="internal-smile.html">
-                                                <img src="assets/images/inner-smile.jpg" class="card-img-top image-size" alt="Internal smile course cover image">
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title">Internal Smile Meditation</h5>
-                                            <p><span class="copy-text">Online Course</span></p>
-                                            <p class="card-text">Heal your emotions with the power of internal smiling</p>
-                                        </div>
-                                        <div class="card-footer button-position">
-                                            <a href="internal-smile.html">
-                                                <button class="btn btn-warning">Read More</button>                          
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </section>
             </div>
-        </div>    
-
-        <!-- I got the cards in this section from the Bootstrap documentation -->
-        <section class="products-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="section-heading">Here’s Marco’s courses books and meditations</h1>
-
-                    </div>
-                </div>
-
-                <div class="row justify-content-center card-bottom">
-                    <div class="col-lg-10">
-                        <div class="card-group">
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <img src="assets/images/learn-online2.PNG" class="card-img-top image-size" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">COURSES</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="courses.html"><button class="btn btn-warning">BROWSE COURSES</button></a>
-                                </div>
-                            </div>
-
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <img src="assets/images/BOOKS2.jpg" class="card-img-top image-size" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">BOOKS</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="books.html">
-                                        <button class="btn btn-warning">BROWSE BOOKS</button>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="card card-border">
-                                <div class="card-img">
-                                    <a href="meditations.html">
-                                        <img src="assets/images/meditation-img1.png" class="card-img-top image-size"
-                                            alt="Meditation image">
-                                    </a>
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title">MEDITATIONS</h5>
-                                    <p class="card-text">This card has supporting text below as a natural lead-in to
-                                        additional content.</p>
-                                </div>
-                                <div class="card-footer button-position">
-                                    <a href="meditations.html"><button class="btn btn-warning">BROWSE
-                                            MEDITATIONS</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
-
-        <section id="downlod-meditation-section">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="section-heading meditation-heading">Download free meditation</h1>
-                    </div>
-                </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="copy-text-meditation">
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo veritatis ipsum
-                                reprehenderit, quidem suscipit fugiat nobis commodi maxime minus inventore! Saepe
-                                cupiditate soluta dolor culpa rem quod officia esse fuga iusto aliquid, eius doloremque
-                                dolorem, eligendi commodi harum et ut alias cum natus reiciendis quo!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 button-position">
-                        <button type="button" class="btn btn-lg btn-warning" data-toggle="modal"
-                            data-target="#download-meditation-modal">
-                            Download <i class="fas fa-download"></i> Meditation
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="download-meditation-modal" tabindex="-1" role="dialog"
-                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <!--the code for this  signup form i got from  https://bootsnipp.com/snippets/AlM7P -->
-                            <form class="input-group signup-form signup-background" onsubmit="return sendMail(this);" method="POST">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="content">
-                                                <h2 class="section-heading modal-headline">Download your meditation now.
-                                                </h2>
-                                                <div class="signup-text">
-                                                    <p>
-                                                        A link to where you can download
-                                                        <br>
-                                                        the meditation will be sent 
-                                                        <br>
-                                                        to your email.
-                                                    </p>
-
-                                                </div>
-                                                <div class="input-group signup-form">
-                                                    <div class="row input-field-margin">
-                                                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
-                                                    </div>
-                                                    <div class="row input-field-margin">
-                                                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required>
-                                                    </div>
-                                                    <span class="row input-group-btn input-field-margin">
-                                                        <div class="col button-position">
-                                                            <button class="btn btn-lg btn-info" type="submit" onclick="downloadMessage()">
-                                                                Download <i class="fas fa-download"></i>
-                                                                </button>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> 
+        </div> 
     </main>
 
     <footer>
