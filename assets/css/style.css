@@ -228,8 +228,6 @@ main {
     padding: 40px;
     min-height: 200px;
 	width: 100%;
-    /* background: url('../images/cosmic-sky.png') no-repeat center center;
-    background-size: cover; */
 }
 
 .body-mind-wrapper {
@@ -264,7 +262,6 @@ main {
     font-family: "Exo", sans-serif;
     text-transform: uppercase;
     font-size: 28px;
-    /* color: #ffd369; */
 }
 
 .quiz-heading-container {
