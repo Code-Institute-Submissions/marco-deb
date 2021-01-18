@@ -187,6 +187,10 @@ main {
     margin-left: 100px;
 }
 
+.gray-background {
+    background-color: #e7e4e4;
+}
+
 /* ----------------------------- Banner text ----------------------- */
 
 .main-banner-heading {
