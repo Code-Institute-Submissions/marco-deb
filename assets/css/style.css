@@ -177,6 +177,16 @@ main {
       background-color: yellow;
   }
 
+  .download-image  {
+    width: 50%;
+    height: 50%;
+}
+
+.download-steps {
+    text-align: left;
+    margin-left: 100px;
+}
+
 /* ----------------------------- Banner text ----------------------- */
 
 .main-banner-heading {
