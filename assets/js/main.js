@@ -21,14 +21,18 @@ function bodySection() {
 // I learned this code from https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style
 function small() {
     document.getElementById('font-size').style.fontSize='20px'
+        localStorage.setItem("userFontSize", "small")
+
 }
 
 function medium() {
     document.getElementById('font-size').style.fontSize='26px'
+    localStorage.setItem("userFontSize", "medium")
 }
 
 function large() {
     document.getElementById('font-size').style.fontSize='35px'
+    localStorage.setItem("userFontSize", "large")
 }
 
 //--------------------------------
