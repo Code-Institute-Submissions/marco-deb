@@ -1,14 +1,16 @@
 //  I got this code from  Code instutute’s basic Javascript Setting Properties - Part 2
- function lightTheme() {
+function lightTheme() {
     el = document.getElementById("mainDiv");
     el.classList.remove("dark");
     el.classList.add("light");
+    localStorage.setItem("userHasDarkTheme", false)
 }
 
 function darkTheme() {
     el = document.getElementById("mainDiv");
     el.classList.remove("light");
     el.classList.add("dark");
+    localStorage.setItem("userHasDarkTheme", true)
 }
 
 function bodySection() {
@@ -35,3 +37,10 @@ function slideToggleElement(elementToShow, elementToHide){
     $(elementToHide).slideUp();
     $(elementToShow).slideDown();
 }
+
+// when the document has loaded
+// https://api.jquery.com/ready/
+$().ready(function(){
+    //let currentCounter = localStorage.getItem("counter") || 0;
+    if ( localStorage.getItem("userHasDarkTheme") ) darkTheme();
+});
