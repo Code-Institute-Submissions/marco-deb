@@ -11,20 +11,21 @@ function sendMail(contactForm) {
         function(error) { 
             console.log('failed', error);
         }); 
+        
+        window.location.href = "download-confirmation.html";
+
         return false;  // To block from loading a new page
 }
 
-function downloadMessage() {
-    alert("It's done. A download link has been sent to your email")
-}
+
 
 //---------------------------------------------
 
 function send(contactForm) {
     emailjs.send('gmail', 'Marco-Deb', {
-        'from_name': contactForm.name.value, 
+        'from_name': contactForm.fullname.value, 
         'from_email': contactForm.emailaddress.value,
-        // 'project_request': contactForm.projectsummary.value
+        'message': contactForm.message.value
     })
     .then(
         function(response){
@@ -32,6 +33,11 @@ function send(contactForm) {
         },
         function(error) { 
             console.log('failed', error);
-        }); 
+        });
+
+        window.location.href = "mail-confirmation.html";
+
+        //alert("Thank you! I will reply as soon as possible")
         return false;  // To block from loading a new page
+
 }

@@ -21,7 +21,7 @@ function bodySection() {
 // I learned this code from https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style
 function small() {
     document.getElementById('font-size').style.fontSize='20px'
-        localStorage.setItem("userFontSize", "small")
+    localStorage.setItem("userFontSize", "small")
 
 }
 
