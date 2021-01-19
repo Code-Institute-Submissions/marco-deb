@@ -3,14 +3,14 @@ function lightTheme() {
     el = document.getElementById("mainDiv");
     el.classList.remove("dark");
     el.classList.add("light");
-    localStorage.setItem("userHasDarkTheme", false)
+    localStorage.setItem("userHasDarkTheme", "false")
 }
 
 function darkTheme() {
     el = document.getElementById("mainDiv");
     el.classList.remove("light");
     el.classList.add("dark");
-    localStorage.setItem("userHasDarkTheme", true)
+    localStorage.setItem("userHasDarkTheme", "true")
 }
 
 function bodySection() {
@@ -42,5 +42,10 @@ function slideToggleElement(elementToShow, elementToHide){
 // https://api.jquery.com/ready/
 $().ready(function(){
     //let currentCounter = localStorage.getItem("counter") || 0;
-    if ( localStorage.getItem("userHasDarkTheme") ) darkTheme();
+    if ( localStorage.getItem("userHasDarkTheme") == "true") darkTheme();
+
+    if ( localStorage.getItem("userFontSize") == "medium" ) medium();
+    else if ( localStorage.getItem("userFontSize") == "large" ) large();
+    //else small(); // default, also when no setting has been selected, doesn't have to run because it is default
 });
+
