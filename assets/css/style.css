@@ -16,7 +16,6 @@ html, body {
 #banner-image {
 	height: 500px;
 	width: 100%;
-    /* background: url('../images/meditation1.jpg') no-repeat center center; */
     background: url('../images/meditation-nature.jpg') no-repeat center center;
     background-size: cover;
 }
@@ -132,6 +131,10 @@ main {
 .copy-text {
     font-size: 20px;
     padding: 20px;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .copy-text-meditation {
