@@ -147,11 +147,13 @@ Contents of the e-Courses page:
 
 ![Courses Page](assets/readme-images/courses1.png)
 ![Courses Page](assets/readme-images/courses2.png)
-## Products page
+
+## Products page for a course
 
 Contents of the a products page:
 
-- The first thing after the navbar the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. 
+- The first thing after the navbar the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. The settings will be stored in the local storage.
+
 
 ![Dark & Light buttons](assets/readme-images/buttons-light.png)
 ![Dark & Light buttons](assets/readme-images/buttons-dark.png)
@@ -160,4 +162,48 @@ Contents of the a products page:
 
 ![Cover image for course](assets/readme-images/course-cover.png)
 
+- After this is the user is presented with the option to choose between three different font sizes. The settings will be stored in the local storage.
 
+![Font size options](assets/readme-images/font-size.png)
+
+## Books page
+
+The books page is the same as the courses page, except that there is books instead of courses on the cards. When clicking on the read more button the user is lead to the product page for that book. The product page for the book is the same as a product page for a course, except that it is a book, and the buy button leads to amazon.com.
+
+![Book Page image](assets/readme-images/book-page.png)
+
+## Meditations page
+
+The meditations page is the same as the courses and books page, except that there is meditations instead of courses or books on the cards. When clicking on the read more button the user is lead to the product page for that meditation. The product page for the book is the same as a product page for a course or book, except that it is a meditation, and the buy button leads to gumroad.com.
+
+![Meditation Page image](assets/readme-images/meditation-page.png)
+
+## About page
+
+Contents of the about page:
+
+The about page contains an image of Marco Deb and text about him. After the text there’s a contact me button that leads to the contact page. 
+
+The about page also have the option the change background colors and font sizes. 
+
+![About Page image](assets/readme-images/about1.png)
+![About Page image](assets/readme-images/about2.png)
+
+## Contact page
+
+Contents of the contact page:
+
+In the contacts page there is a contact form and a submit button. The user is asked to fill in his/her name email address and their message. There is also a contact form in the footer of each page.
+
+![Contact form image](assets/readme-images/contact.png)
+![Contact form image](assets/readme-images/contact-footer.png)
+
+
+## Terms and privacy policy pages
+
+In the footer there is links to the privacy policy and terms page.
+
+These pages contains the terms and privacy policy.  These pages also has the option to change background color and font size. The settings are stored in the local storage.
+
+![Terms image](assets/readme-images/terms.png)
+![privacy policy image](assets/readme-images/terms.png)
