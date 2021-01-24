@@ -4,7 +4,7 @@
 
 # Table of contents
 
-1. [Marco Deb](#Marco Deb)
+1. [MarcoDeb](#Marco-Deb)
     
     - A short description of this website
     - There is two types of customer we aim for
@@ -35,14 +35,12 @@
     - Media.
     - Acknowledgements.
 
-    # Marco Deb
+# Marco-Deb
 
 ### A short description of this website
 
 
 # UX
-
-
 
 #### The business goals for this website are:
 
@@ -75,7 +73,7 @@ For wireframing I used [Balsamiq](https://balsamiq.com)
 
 Click this link to see my wireframes.
 
-<https://marc-solution.github.io/mavera-wireframes/>
+<https://marc-solution.github.io/marco-deb-wireframes/>
 
 ### Design choices
 
@@ -131,3 +129,35 @@ Contents of the home page:
 - A footer with links to navigate the website, social media links, contact information and a contact form.
 
 ![Download popup image](assets/readme-images/footer.png)
+
+## e-Courses page
+
+Contents of the e-Courses page:
+
+- This website offers four different e courses. The courses page contains four product cards. One card for each course. 
+
+- Each card has:
+    - A cover image for the course
+    - The course title
+    - The price of the course
+    - A short description of the course
+    - And a read more button
+
+- The user can click either the course cover image or the read more button. It will lead them to the course page.
+
+![Courses Page](assets/readme-images/courses1.png)
+![Courses Page](assets/readme-images/courses2.png)
+## Products page
+
+Contents of the a products page:
+
+- The first thing after the navbar the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. 
+
+![Dark & Light buttons](assets/readme-images/buttons-light.png)
+![Dark & Light buttons](assets/readme-images/buttons-dark.png)
+
+- Next there’s a headline with the course name, and then cover image for the course, followed by a buy button. The button is linked to Udemy, that will open up in a new tab.
+
+![Cover image for course](assets/readme-images/course-cover.png)
+
+
