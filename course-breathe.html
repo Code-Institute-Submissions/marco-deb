@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marco Deb about</title>
+    <title>Marco Deb Happy Mind Training</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
     <script src="https://kit.fontawesome.com/4d697d2398.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
@@ -48,64 +48,95 @@
             </div>
         </nav>
     </header>
-    
 
-    <main>
-        <div class="container">
+
+    <main id="mainDiv">
+        <div class="container-fluid product-page">
             <div class="row justify-content-center">
-                    <div class="col-lg-6 button-position">
-                        <div class="gray-background">
-                            <span class="small-text">
-                                You might not be able to downlod this meditation 
-                                <br>
-                                on a smart phone or a tablet, but you can do it on a computer.
-                            </span>
+                <div class="col-lg-4 button-position button-dark">
+                    <div>
+                        <button class="btn btn-dark" onclick="darkTheme()">Dark background</button>
+                        <button class="btn btn-light" onclick="lightTheme()">Light background</button>
                     </div>
-                        <h1 class="section-heading">Download meditation</h1>
-                        <p>
-                            <a href="assets/mp3/short-meditation.mp3" target="_blank" download>
-                                <button class="btn btn-warning">Download <i class="fas fa-download"></i> meditation</button>
-                            </a>
-                        </p>
-                        <p class="copy-text">
-                            If you have clicked the download meditation button and the file does not atomatically download to your computer, then follow the steps layed out below.
-                        </p>
-                        
-                        <p>
-                            <h5>Download on Chrome and Opera browsers</h5>
-                            <p class="download-steps">
-                                1. Click the download meditation button
-                                <br>
-                                2. A new tab will open
-                                <br>
-                                3. To download, click on the 3 doots on the right side of the player
-                            </p>
-                            <p>
-                                <img class="download-image" src="assets/images/download-chrome-img.JPG" alt="Download image">
-                            </p>
-                            <a href="assets/mp3/short-meditation.mp3" target="_blank" download>
-                                <button class="btn btn-warning">Download <i class="fas fa-download"></i> meditation</button>
-                            </a>
-                        </p>
-                        <p>
-                            <h5>Download on Firefox and Safari browsers</h5>
-                            <p class="download-steps">
-                                1. Click the download meditation button
-                                <br>
-                                2. A new tab will open with a player
-                                <br>
-                                3. To download, right click on the player and choose Save Audio As...
-                            </p>
-                            <p>
-                                <img class="download-image" src="assets/images/download-firefox-img.png" alt="Download image">
-                            </p>
-                            <a href="assets/mp3/short-meditation.mp3" target="_blank" download>
-                                <button class="btn btn-warning">Download <i class="fas fa-download"></i> meditation</button>
-                            </a>
-                        </p>
                 </div>
             </div>
-        </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg6 image-center">
+                    <h1 class="section-heading">Breathe Life</h1>
+                    <span class="copy-text">Online Course</span>
+                    <p>
+                        <img class="product-image" src="assets/images/breathe2.jpg" alt="Breathe course cover image">
+                    </p>
+                    <p class="button-position">
+                        <a href="https://www.udemy.com/" target="_blank">
+                            <button class="btn btn-warning">Enroll in Course $17</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 copy-text">
+
+                    <div class="font-size-buttons button-position">
+                        <span class="small-text">Change font size</span>
+                        <br>
+                        <a class="small" onclick="small()">
+                            A
+                        </a>
+                        <a class="medium" onclick="medium()">
+                            A
+                        </a>
+                        <a class="large" onclick="large()">
+                            A
+                        </a>
+                    </div>
+
+                    <div id="font-size">
+                        <p>
+                            What’s the most important thing in life? .... the answer is simple..... It’s breathing. If
+                            you don’t breathe there’s no life. We breathe up 25 000 times every day. Breathing well is
+                            very important for your health and sense of well being.
+                        </p>
+                        <p>
+                            Using this program will immediately improve your sense of clarity, connection and inner
+                            peace.
+                            It is great to use as a morning routine so that your breathing will be deep calm and steady
+                            throughout the day.
+
+                        </p>
+                        <p>
+                            Benefits of breathing well:
+
+                            <ul>
+                                <li>Decreases stress, increases calm.</li>
+                                <li>Relieves pain</li>
+                                <li>Stimulates the lymphatic system (Detoxifies the body)</li>
+                                <li>Improves immunity</li>
+                                <li>Increases energy</li>
+                                <li>Lowers blood pressure</li>
+                                <li>Improves digestion</li>
+                                <li>Helps support correct posture</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 button-position">
+                    <p>
+                        <a href="https://www.udemy.com/" target="_blank">
+                            <button class="btn btn-warning">Enroll in Course $17</button>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="courses.html">
+                            <button class="btn btn-dark">Back To Courses</button>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
     </main>
 
     <footer>
@@ -143,8 +174,7 @@
                     <a href="#">
                         <li>Articles</li>
                     </a>
-                    <a href="#" data-toggle="modal"
-                    data-target="#download-meditation-modal">
+                    <a href="#" data-toggle="modal" data-target="#download-meditation-modal">
                         <li>Download Meditation <i class="fas fa-download"></i></li>
                     </a>
                     <a href="#">

@@ -326,7 +326,7 @@ This project uses bootstrap4
 
 ## Content
 
-The text for this web-site was written by Marco Deb, except for the Privacy policy and Terms pages. (See Privacy policy and Terms above for credits)
+All texts for this web-site was written by Marco Deb, except for the Privacy policy and Terms pages. (See Privacy policy and Terms above for credits)
 
 ## Media
 
@@ -362,7 +362,7 @@ The cover image for the Happy body Training course was obtained from https://www
 
 The cover image for the Breathe course was obtained from https://www.vectorstock.com/royalty-free-vector/cartoon-cute-art-with-mandala-and-breagradient-vector-21074703
 
-The cover image for the Pure Love Chi Gong course was obtained from
+The cover image for the Pure Love Chi Gong course was obtained from https://wallpaperaccess.com/tai-chi
 
 ### Books Cover images
 

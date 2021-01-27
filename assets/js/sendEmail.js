@@ -1,3 +1,4 @@
+// Function for downloading meditation
 function sendMail(contactForm) {
     emailjs.send('gmail', 'rosie', {
         'from_name': contactForm.name.value, 
@@ -18,7 +19,7 @@ function sendMail(contactForm) {
 }
 
 
-
+// Function for sending mail
 //---------------------------------------------
 
 function send(contactForm) {
