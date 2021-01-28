@@ -3,19 +3,19 @@ function sendMail(contactForm) {
     emailjs.send('gmail', 'rosie', {
         'from_name': contactForm.name.value, 
         'from_email': contactForm.emailaddress.value,
-        // 'project_request': contactForm.projectsummary.value
+        
     })
     .then(
         function(response){
             console.log('success', response);
+            window.location.href = "download-confirmation.html";
         },
         function(error) { 
             console.log('failed', error);
         }); 
-        
-        window.location.href = "download-confirmation.html";
 
-        return false;  // To block from loading a new page
+        
+        return false;  // To block from loading a new page   
 }
 
 
@@ -31,14 +31,11 @@ function send(contactForm) {
     .then(
         function(response){
             console.log('success', response);
+            window.location.href = "mail-confirmation.html";
         },
         function(error) { 
             console.log('failed', error);
         });
 
-        window.location.href = "mail-confirmation.html";
-
-        //alert("Thank you! I will reply as soon as possible")
         return false;  // To block from loading a new page
-
 }

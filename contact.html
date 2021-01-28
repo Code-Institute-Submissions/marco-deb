@@ -104,6 +104,9 @@
                     <a href="meditations.html">
                         <li>Meditations</li>
                     </a>
+                    <a href="" data-toggle="modal" data-target="#download-meditation-modal">
+                        <li>Download <i class="fas fa-download"></i> Meditation</li>
+                    </a>
                     <a href="about.html">
                         <li>About</li>
                     </a>
@@ -138,14 +141,14 @@
                 <h3>Contact me</h3>
                 <br>
                 <form onsubmit="return send(this);" method="POST">
-                    <input class="text-input contact-input" id="fullname" type="text" name="name" placeholder="Name"
+                    <input class="text-input contact-input" id="fullname" type="text" name="fullname" placeholder="Name"
                         required>
                     <br>
-                    <input class="text-input contact-input" type="email" name="email" id="emailaddress"
+                    <input class="text-input contact-input" type="email" name="emailaddress" id="emailaddress"
                         placeholder="Your Email" required>
                     <br>
-                    <textarea class="text-input contact-input" name="projectsummary" id="projectsummary"
-                        placeholder="Your message..." required></textarea>
+                    <textarea class="text-input contact-input" name="message" id="message" placeholder="Your message..."
+                        required></textarea>
                     <br>
                     <button type="submit" class="btn btn-warning contact-btn"><i
                             class="fas fa-envelope"></i>Send</button>
