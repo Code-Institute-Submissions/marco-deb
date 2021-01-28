@@ -48,7 +48,7 @@
             </div>
         </nav>
     </header>
-    
+
 
     <main id="mainDiv">
         <div class="container">
@@ -72,7 +72,7 @@
                         Self Awareness Teacher | Author | Course creator
                     </div>
                     <div class="font-size-buttons button-position">
-                        <span class="small-text">Change font size</span> 
+                        <span class="small-text">Change font size</span>
                         <br>
                         <a class="small" onclick="small()">
                             A
@@ -87,13 +87,15 @@
 
                     <div id="font-size">
                         <p>
-                            Hi, I’m Marco Deb. A former professional music producer turned Self awareness Teacher, Author and Course creator.
+                            Hi, I’m Marco Deb. A former professional music producer turned Self awareness Teacher,
+                            Author and Course creator.
                         </p>
                         <p>
-                            I love being creative. And I love to help people explore themselves, find themselves and to take their next step in their evolution. 
+                            I love being creative. And I love to help people explore themselves, find themselves and to
+                            take their next step in their evolution.
                         </p>
                         <p>
-                           If you have any questions. Don't hesitate to connect with me!
+                            If you have any questions. Don't hesitate to connect with me!
                         </p>
                     </div>
                     <p>
@@ -106,8 +108,8 @@
         </div>
     </main>
 
-     <!-- Many parts of this footer I got from following the instructions from this tutorial https://www.youtube.com/watch?v=o-cKmAeNJiA&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=7. More on that in the README.md -->
-   <footer>
+    <!-- Many parts of this footer I got from following the instructions from this tutorial https://www.youtube.com/watch?v=o-cKmAeNJiA&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=7. More on that in the README.md -->
+    <footer>
         <div class="footer-content">
 
             <div class="footer-section links">
@@ -122,6 +124,9 @@
                     </a>
                     <a href="meditations.html">
                         <li>Meditations</li>
+                    </a>
+                    <a href="" data-toggle="modal" data-target="#download-meditation-modal">
+                        <li>Download <i class="fas fa-download"></i> Meditation</li>
                     </a>
                     <a href="about.html">
                         <li>About</li>
@@ -139,7 +144,7 @@
                 <h3>Do you have any questions? </h3>
                 <br>
                 <p>
-                    Please do not hesitate to ask me directly. 
+                    Please do not hesitate to ask me directly.
                     <br>
                     I would love to hear from you.
                 </p>
@@ -153,21 +158,21 @@
                 </div>
             </div>
 
-            <!-- Many parts of this footer I got from following the instructions from this tutorial https://www.youtube.com/watch?v=o-cKmAeNJiA&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=7. More on that in the README.md -->
             <div class="footer-section contact-form">
                 <h3>Contact me</h3>
                 <br>
-                <form action="index.html" method="POST">
-                    <input class="text-input contact-input" type="text" name="" placeholder="Name">
+                <form onsubmit="return send(this);" method="POST">
+                    <input class="text-input contact-input" id="fullname" type="text" name="fullname" placeholder="Name"
+                        required>
                     <br>
-                    <input class="text-input contact-input" type="email" name="" id="" placeholder="Your Email">
+                    <input class="text-input contact-input" type="email" name="emailaddress" id="emailaddress"
+                        placeholder="Your Email" required>
                     <br>
-                    <input class="text-input contact-input" type="text" placeholder="Subject">
+                    <textarea class="text-input contact-input" name="message" id="message" placeholder="Your message..."
+                        required></textarea>
                     <br>
-                    <textarea class="text-input contact-input" name="message" placeholder="Your message..."></textarea>
-                    <br>
-                    <button type="submit" class="btn btn-info contact-btn"><i class="fas fa-envelope"></i>
-                        Send</button>
+                    <button type="submit" class="btn btn-warning contact-btn"><i
+                            class="fas fa-envelope"></i>Send</button>
                 </form>
             </div>
         </div>

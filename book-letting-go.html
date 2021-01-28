@@ -66,7 +66,8 @@
                     <h1 class="section-heading">Words About Letting Go</h1>
                     <span class="copy-text">Book</span>
                     <p>
-                        <img class="product-image" src="assets/images/letting-go.jpg" alt="Words About Letting Go book cover">
+                        <img class="product-image" src="assets/images/letting-go.jpg"
+                            alt="Words About Letting Go book cover">
                     </p>
                     <p class="button-position">
                         <a href="https://www.amazon.com/" target="_blank">
@@ -79,7 +80,7 @@
                 <div class="col-lg-6 copy-text">
 
                     <div class="font-size-buttons button-position">
-                        <span class="small-text">Change font size</span> 
+                        <span class="small-text">Change font size</span>
                         <br>
                         <a class="small" onclick="small()">
                             A
@@ -94,14 +95,17 @@
 
                     <div id="font-size">
                         <p>
-                            Life becomes easier when you let go of  what you don’t need.
+                            Life becomes easier when you let go of what you don’t need.
                         </p>
                         <p>
-                           In order to renew yourself and your life, you need to let go. Letting go offers you freedom. The freedom to be who you really are. In order to receive new in your life, you need to let go of the old. 
+                            In order to renew yourself and your life, you need to let go. Letting go offers you freedom.
+                            The freedom to be who you really are. In order to receive new in your life, you need to let
+                            go of the old.
 
                         </p>
                         <p>
-                            Words about letting go gives you simple and effective principles to allow you to let go of negative limiting thought and emotions.
+                            Words about letting go gives you simple and effective principles to allow you to let go of
+                            negative limiting thought and emotions.
                         </p>
                     </div>
                 </div>
@@ -125,43 +129,24 @@
 
     <footer>
         <div class="footer-content">
-            <div class="footer-section about">
-                <a href="index.html">
-                    <img class="marco-logo-footer" src="assets/images/marco-deb-logo.png" alt="Marco Deb Logo">
-                </a>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veniam impedit eveniet
-                    molestiae incidunt non?
-                </p>
-                <div class="contact">
-                    <span><i class="fas fa-phone"></i> &nbsp; 7422924</span>
-                    <span><i class="fas fa-envelope"></i> &nbsp; hello@marcodeb.com</span>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                </div>
-            </div>
 
             <div class="footer-section links">
                 <h2>Quick links</h2>
                 <br>
                 <ul class="link-color">
-                    <a href="#">
+                    <a href="courses.html">
                         <li>Courses</li>
                     </a>
-                    <a href="#">
+                    <a href="books.html">
                         <li>Books</li>
                     </a>
-                    <a href="#">
-                        <li>Articles</li>
+                    <a href="meditations.html">
+                        <li>Meditations</li>
                     </a>
-                    <a href="#" data-toggle="modal" data-target="#download-meditation-modal">
-                        <li>Download Meditation <i class="fas fa-download"></i></li>
+                    <a href="" data-toggle="modal" data-target="#download-meditation-modal">
+                        <li>Download <i class="fas fa-download"></i> Meditation</li>
                     </a>
-                    <a href="#">
+                    <a href="about.html">
                         <li>About</li>
                     </a>
                     <a href="privacy-policy.html">
@@ -173,27 +158,45 @@
                 </ul>
             </div>
 
-            <!-- Many parts of this footer I got from following the instructions from this tutorial https://www.youtube.com/watch?v=o-cKmAeNJiA&list=PL3pyLl-dgiqBSBsC5O5AQHN1UsUk-60nc&index=7. More on that in the README.md -->
-            <div class="footer-section contact-form">
-                <h2>Contact us</h2>
+            <div class="footer-section about">
+                <h3>Do you have any questions? </h3>
                 <br>
-                <form action="index.html" method="POST">
-                    <input class="text-input contact-input" type="text" name="" placeholder="Name">
+                <p>
+                    Please do not hesitate to ask me directly.
                     <br>
-                    <input class="text-input contact-input" type="email" name="" id="" placeholder="Your Email">
+                    I would love to hear from you.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-envelope"></i> &nbsp; marco.deb@gmail.com</span>
+                </div>
+                <h3>Social Media</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section contact-form">
+                <h3>Contact me</h3>
+                <br>
+                <form onsubmit="return send(this);" method="POST">
+                    <input class="text-input contact-input" id="fullname" type="text" name="fullname" placeholder="Name"
+                        required>
                     <br>
-                    <!-- <input class="text-input contact-input" type="text" placeholder="Subject">
-                    <br> -->
-                    <textarea class="text-input contact-input" name="message" placeholder="Your message..."></textarea>
+                    <input class="text-input contact-input" type="email" name="emailaddress" id="emailaddress"
+                        placeholder="Your Email" required>
                     <br>
-                    <button type="submit" class="btn btn-warning contact-btn"><i class="fas fa-envelope"></i>
-                        Send</button>
+                    <textarea class="text-input contact-input" name="message" id="message" placeholder="Your message..."
+                        required></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-warning contact-btn"><i
+                            class="fas fa-envelope"></i>Send</button>
                 </form>
             </div>
         </div>
 
         <div class="footer-bottom">
-            &copy; Marco Deb | Designed by Marco Deb
+            &copy; Marco Deb 2021 | Designed by Marco Deb
         </div>
     </footer>
 
