@@ -360,13 +360,6 @@ main {
     text-align: center;
  }
 
- /* .button-dark {
-     padding-top: 15px;
- } */
-
- /* .button-theme {
-
- } */
 
  .button-light {
     background-color: white;
@@ -407,6 +400,10 @@ main {
 
 .large {
     font-size: 35px;
+}
+
+.about-button {
+    padding-bottom: 25px;
 }
 
 /* ---------------------- product page -------------------------------- */
