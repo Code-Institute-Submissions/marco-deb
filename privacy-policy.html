@@ -49,35 +49,42 @@
         </nav>
     </header>
 
-
     <main>
         <div class="container-fluid light" id="mainDiv">
             <div class="row justify-content-center">
                 <div class="col-lg-6 button-position button-dark policy-text">
 
-                    <div class="dark-light-button-container">
-                        <button class="btn btn-dark" onclick="darkTheme()">Dark background</button>
-                        <button class="btn btn-light" onclick="lightTheme()">Light background</button>
+                    <h2 class="section-heading">Privacy Policy</h2>
+
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 copy-text">
+                            <div class="font-size-buttons button-position">
+                                <span class="small-text">Change font size</span>
+                                <br>
+                                <a class="small" onclick="small()">
+                                    A
+                                </a>
+                                <a class="medium" onclick="medium()">
+                                    A
+                                </a>
+                                <a class="large" onclick="large()">
+                                    A
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
-                    <h2 class="section-heading">Privacy Policy</h2>
-                    <!-- I got all this private policy text from https://jayshetty.me/privacy/ -->
-
-                    <div class="font-size-buttons button-position">
-                        <span class="small-text">Change font size</span>
-                        <br>
-                        <a class="small" onclick="small()">
-                            A
-                        </a>
-                        <a class="medium" onclick="medium()">
-                            A
-                        </a>
-                        <a class="large" onclick="large()">
-                            A
-                        </a>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 button-position button-theme">
+                            <div>
+                                <button class="btn btn-dark" onclick="darkTheme()">Dark Theme</button>
+                                <button class="btn btn-dark button-light" onclick="lightTheme()">Light Theme</button>
+                            </div>
+                        </div>
                     </div>
 
                     <div id="font-size">
+                        <!-- I got all this private policy text from https://jayshetty.me/privacy/ -->
                         <p>
                             This Privacy Policy was modified on januari 1, 2021 and enters into effect immediately.
                         </p>
