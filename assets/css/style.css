@@ -20,27 +20,6 @@ html, body {
     background-size: cover;
 }
 
-#meditation-banner {
-    height: 220px;
-	width: 100%;
-    background: url('../images/cosmic-sky.png') no-repeat center center;
-    background-size: cover;
-}
-
-#courses-banner {
-    height: 400px;
-	width: 100%;
-    background: url('../images/Butterfly-effect.jpg') no-repeat center center;
-    background-size: cover;
-}
-
-#book-banner {
-    height: 220px;
-	width: 100%;
-    background: url('../images/books-banner.jpg') no-repeat center center;
-    background-size: cover;
-}
-
 .marco-logo {
     width: 40%;
     border-radius: 5%;
