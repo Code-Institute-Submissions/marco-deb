@@ -2,7 +2,7 @@
 
 [Main README.md file](README.md)
 
-[View the website in GitHub Pages ](https://marc-solution.github.io/Mavera/)
+[View the website in GitHub Pages ](https://github.com/Marc-Solution/marco-deb)
 
 ## Table of contents
 
