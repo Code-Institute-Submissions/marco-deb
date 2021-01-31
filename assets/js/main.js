@@ -46,16 +46,12 @@ $().ready(function(){
 
 //----------------------------------------------------
 
-function bodySection() {
-    el = document.getElementById("body-section")
-    el.classList.add("remove-body-section")
-}
-
 function slideToggleElement(elementToShow, elementToHide){
-    
-    $(elementToHide).slideUp();
-    $(elementToShow).slideDown();
+    // if ($('.elementToShow').is(':visible'))
 
+    $(elementToHide).slideUp('slow');
+    $(elementToShow).slideDown('slow');
+    
 }
 
 
