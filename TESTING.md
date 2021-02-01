@@ -7,12 +7,13 @@
 ## Table of contents
 
 1. [Browsers tested](#browsers-tested)
-2. [Changes made after testing](#changes-made-after-testing)
-3. [W3 validator](#w3-validator)
-4. [Contact and newsletter forms](#contact-and-newsletter-forms)
-5. [Links and buttons](#links-and-buttons)
-6. [Alt attribute for images](#alt-attribute-for-images)
-7. [Testing the user stories](#testing-the-user-stories)
+2. [Bugs](#Bugs)
+3. [Changes made after testing](#changes-made-after-testing)
+4. [W3 validator](#w3-validator)
+5. [Contact and newsletter forms](#contact-and-newsletter-forms)
+6. [Links and buttons](#links-and-buttons)
+7. [Alt attribute for images](#alt-attribute-for-images)
+8. [Testing the user stories](#testing-the-user-stories)
 
 ---
 
@@ -23,10 +24,55 @@
 - Safari
 - Opera
 
-I tried these browsers. I looked at all the different sizes in the inspect mode ( Except for in safari, because it does not have that option). It works in widescreen, desktop, tablet and mobile.
-I have tested it on my laptop computer and also on a big screen. I tested it on two different Iphones and on a Samsung Galaxy. It works as it should on all devises.
+I tried these browsers. I looked at all the different sizes in the inspect mode ( Except for in safari, because it does not have that option). It works in widescreen, desktop, tablet and mobile in all browsers except for the Iphone 5/SE in Chrome’s inspect mode. In the quiz section on the home page the cards are not in center as they should when simulating the Iphone 5/SE in Chrome’s inspect mode. ( See image in the bugs section ) I don’t know why it is like that and I don’t know how to fix it.
 
+I have tested it on my laptop computer and also on a big screen. I tested it on two different Iphones and on a Samsung Galaxy. It works as it should on all devises.
 I also asked friends to test the website on their mobiles. It all works as it should.
+
+# Bugs
+
+## These are the bugs I found
+
+## 1. The cards in the courses page are not aligned.
+
+I don’t know why it is so. The cards on the upper row and the lower row are not aligned. I have tried to copy the upper row and replacing the lower row and to change the contents of the cards, but it is still unaligned. I did not find a solution to this bug. See image below.
+
+![Courses page](assets/readme-images/courses.png)
+
+## 2. The Quiz section on the Iphone 5/SE in Chrome’s inspect mode.
+
+The cards are not centered as they should be. All other smartphone models worked well in all the browsers I tested. I don’t know why it is like this and I don’t know how to fix it. See image below.
+
+![Iphone 5 in chrome](assets/readme-images/Iphone5-chrome.png)
+
+## 3. Dark theme and light theme buttons.
+
+The buttons for the dark and light theme’s where not aligned. I used bootstrap buttons. I used btn-dark for dark-theme and btn light for light theme. But for some reason they where not aligned. See image below.
+
+![Buttons](assets/readme-images/buttons-bug.png)
+
+I fixed this by using btn-dark for both buttons and then changing the color on the button to light, for light-theme in my style.css file See image below.
+
+![Buttons](assets/readme-images/buttons-aligned.png)
+
+## 4. Download meditation in different browsers
+
+There where some issues with the download a meditation service.
+
+### Chrome and Opera browsers:
+
+- In Chrome and Opera the download link works. When you click the link a new tab opens up with a player that starts playing the mp3 file. There’s three dots on the right side of the player that you can click to download the file to your computer. See images below.
+
+![Player](assets/readme-images/player.png)
+![Player](assets/readme-images/player-download.png)
+
+### Safari browser:
+
+- In Safari the download link works. When you click the link a new tab opens up with a player that starts playing the mp3 file. You can rightclick the palyer and download the meditation.
+
+### Firefox browser:
+
+![Player](assets/readme-images/player-safari.png)
 
 # Changes made after testing
 
