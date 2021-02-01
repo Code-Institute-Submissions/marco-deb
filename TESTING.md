@@ -57,7 +57,9 @@ I fixed this by using btn-dark for both buttons and then changing the color on t
 
 ## 4. Download meditation in different browsers
 
-There where some issues with the download a meditation service.
+There where some issues with the download a meditation service. I tested to fill out the download a meditation form, and I did indeed receive an email containing a download link. So, the EmailJS service works. But there was a problem with downloading using The Firefox browser.
+
+Read below about the different browsers I tested.
 
 ### Chrome and Opera browsers:
 
@@ -68,11 +70,20 @@ There where some issues with the download a meditation service.
 
 ### Safari browser:
 
-- In Safari the download link works. When you click the link a new tab opens up with a player that starts playing the mp3 file. You can rightclick the palyer and download the meditation.
+- In Safari the download link works. When you click the link a new tab opens up with a player that starts playing the mp3 file. You can rightclick the palyer and download the meditation. A meny opens up and you can choose to download it from there. But for some reason it says download video insted of download mp3. I was not able to take a screenshot of this.
+
+![Player](assets/readme-images/player-safari.png)
 
 ### Firefox browser:
 
-![Player](assets/readme-images/player-safari.png)
+In Firefox it doesn’t work. When you click the link the player opens up, but you are not able to download the mp3 file to your computer. But for some reason it works if you copy the link and paste it into the browser. The player will then open up and it is possible to download th mp3 file. I don’t know why it is like this and I don’t know how to solve it. I tested this in two different computers with the same result.
+
+### My solution for this bug:
+
+I created a separate download page and I provided an extra link to that page in to email that the user receives. From this download page there’s a download button. This method works with all the browsers I tested so I am considering to only send this link in the reply email. See the mages below.
+
+![Download Email](assets/readme-images/download-email.png)
+![Download Page](assets/readme-images/download-page.png)
 
 # Changes made after testing
 
