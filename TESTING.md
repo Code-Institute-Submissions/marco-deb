@@ -136,120 +136,104 @@ Other than that, all images has an alt attribute describing the image.
 
 ### User Story item 1:
 
-As a new visitor to this company website, I want to instantly know what this company sells to see if it fits my needs.
+As a visitor to this website, I want to know what this website can offer me?
 
 Answer:
 
-- The user wants to know what this page website is about. The banner image on the home page show bottles of organic deodorants so that the user will instantly know that this is a website for an organic deodorant. The texts on the home page gives the user information about the product.
-- On the mobile version there is another banner image. This image is a close up on the deodorant bottle so that the user easily can read the text on the bottle.
-- The first headline of the home page clearly states that it is a website for an organic deodorant.
-- The products page shows that the products are organic deodorants.
+- The user wants to know what this website can offer them. The banner image on the home page show that this website offer courses, books and meditation within the personal development category.
+
+- The banner image also shows a person meditation in nature. This intended to show the user that this site is about wellbeing and personal development.
+
+- The first section of the home page shows 3 cards that shows the user that this website offers courses, books and meditations.
+
+- The next section of the home page allows the user to download a meditation. This also makes it clear to the user what this website has to offer.
+
+- Lastly before the footer, there is a section that intended to guide the user to find what they are looking for. This sections shows the user that they can find content that will help them to elevate their mind body or business.
 
 See the images below.
 
-![banner image](assets/images/testing-images/hero-image.png)
+![banner image](assets/readme-images/banner-image.png)
 
-![Mobile version image](assets/images/testing-images/mobile-version.png)
+![Product cards](assets/readme-images/how-marco-can-help.png)
 
-![Image for the first headline](assets/images/testing-images/headline-1.png)
+![Download meditation](assets/readme-images/download-image.png)
 
-![products image](assets/images/testing-images/products-image.png)
+![Customer guide](assets/readme-images/customer-guide.png)
 
 ### User Story item 2:
 
-As a visitor to this website, I want to easily navigate the site so that I can find what I am looking for.
+As a visitor to this website I want to learn about / improve my health
 
 Answer:
 
-- There is a responsive navbar that makes it easy to navigate the website.
-- If the user wants to know more about the products, they can click the products link in the navbar. The products page gives the user information about each individual product. It also links to the shop page where they can information on where to buy it.
-- If the user wants to know more about the company, they can click the about link in the navbar. The about page tells the user about the company values.
-- If the user wants to contact the company they can find all the contact information on the contact page. There is a link in the navbar to the contacts page.
-- If the user wants to find retailers that sell the products there is information on the shop page.
-- If the user wants to buy the product there are several links that guides the user to the shop page. The shop page provide links to the company webshops as well as retailer information. There is a link to the shop page in the navbar. The home page and the about page have a link to the shop page. The footer has links to the company’s Facebook and Instagram pages.
+- This website offers several courses books and meditations about improving health.
 
 See images below.
 
-![navbar image](assets/images/testing-images/nav-desktop.png)
+![Courses for health](assets/readme-images/courses.png)
 
-![navbar image](assets/images/testing-images/nav-mobile.png)
-
-![navbar image](assets/images/testing-images/retailers.png)
-
-![webshop links image](assets/images/testing-images/webshop-links.png)
-
-![webshop links image](assets/images/testing-images/footer-image.png)
+![Meditations](assets/readme-images/meditations.png)
 
 ### User Story item 3:
 
-As a visitor to this website, I want to find organic deodorants.
+As a visitor to this website I want to learn about / improve my breathing
 
 Answer:
 
-- The home page tells the user that this page is website for a organic deodorant
-- The product page provide more information about the deodorants
-- The shop page provide retailer information and links to webshops where the user can buy the products.
-- The home page provide a link to the products page. The about and products page provide links to the shop page. Also the navbar provide a link to the shop page. It is easy for the user to navigate the website to know where they can get the product
+- This website offers a course that teaches you to breathe well.
 
 See the image below.
 
-![products image](assets/images/testing-images/products-image.png)
+![Breathe course](assets/readme-images/breathe.png)
 
 ### User Story item 4:
 
-As a visitor to this website, I want to know if these deodorants really work.
+As a visitor to this website I want to learn about / do meditation
 
 Answer:
 
-- The purpose of the customer reviews on the home page is to give the product credibility and show the user that the product works.
-- Also the text about the deodorant on the home page is aimed to convince the user that this product really works.
+- This website offers several meditations. There is a meditations page that the user can navigate to from the navbar and also from other places on the website.
+- This site also offers a free meditation that the user can download.
 
 See images below.
 
-![Customer review image](assets/images/testing-images/reviews-image.png)
+![Meditations](assets/readme-images/meditations.png)
 
-![Sales text image](assets/images/testing-images/sales-text-image.png)
+![Meditations](assets/readme-images/meditations2.png)
+
+![Download meditation](assets/readme-images/download-image.png)
 
 ### User Story item 5:
 
-As a customer or a potential customer to this company I want to support an environment friendly cause and I want to see if this company shares my values.
+As a visitor to this website I want to learn about / improve my Mental health
 
 Answer:
 
-- The banner image on the home page shows a deodorant bottle with the text 100% natural. This reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 1 section)
-- The first headline and text on the home page tells the user that it is an organic product with natural ingredients. This reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 4 section)
-- The second text and headline on the home page tells the user that there are only natural and organic ingredients in the products. This also reflects the company value and intention to only use natural organic ingredients. (See image above in User story item 4 section)
-- The mission and vision text on the about page shows the user that the company values are to support an environment friendly cause.
+- This website offers books and courses to improve mental health
 
-See the image below.
+See the images below.
 
-![mission & vision image](assets/images/testing-images/mission-vision.png)
+![Happy Mind Training](assets/readme-images/HMT.png)
+![Happy Mind Training](assets/readme-images/believe-it.png)
+![Happy Mind Training](assets/readme-images/letting-go.png)
 
 ### User Story item 6:
 
-As a customer or a potential customer to this company I want to learn about how to live a more healthy and environment friendly life.
+As a visitor to this website I want to enroll in courses about physical and mental health
 
 Answer:
 
-- The company’s way of spreading awareness of a healthier and more environment friendly lifestyle will mostly be through the blog and newsletter, but also through social media. For the moment the company answers this need through the newsletter and social media channels. The website provide links to the company’s Facebook and Instagram pages. On the about page the user can sign up for the company’s newsletter to learn more about this topic.
-
-- A feature left to implement is a blog. One of the purposes for the blog is to help people live more healthy and environment friendly lives. Other purposes is to raise brand awareness and content marketing.
+- This website offers several books and courses about physical and mental health
 
 See the image below.
 
-![sign up image](assets/images/testing-images/newsletter.png)
-
 ### User Story item 7:
 
-As a visitor to this website, I want to learn the benefits of organic deodorants.
+As a visitor to this website I want to find books about mental training, meditation and health.
 
 Answer:
 
-The benefits told on this website are that it works, will keep you smelling fresh and that it is good for nature. It also tells the user about the health benefits for each product.
-The user can read about the benefits on:
-
-- The home page. It tells the user that it works, will keep you smelling fresh and that it is good for your body and nature.
-- The products page. Each product modal popup tells a little bit about the health benefits for each product.
+- This website offers several books, courses and meditations about physical and mental health and personal development.
 
 The main channel to answer this need will be through social media, the newsletter and also the blog. Through these channels the company will go deeper into this topic.
 

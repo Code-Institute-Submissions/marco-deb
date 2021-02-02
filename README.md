@@ -59,17 +59,16 @@ User stories:
 
 As a visitor to this website I want to…
 
-- know what this website can offer me?
-- learn about health
-- learn about breathing
-- learn about meditation
-- learn about mental training
-- learn about Mental health
-- enroll in courses about physical and mental health
-- find books about mental training, meditation and health.
-- know about product prices
-- easily navigate this website
-- know learn about Marco Deb
+- I want to know what this website can offer me?
+- I want to learn about / improve my health
+- I want to learn about / improve my breathing
+- I want to learn about / do meditation
+- I want to learn about / improve my Mental health
+- I want to enroll in courses about physical and mental health
+- I want to find books about mental training, meditation and health.
+- I want to know about product prices
+- I want to easily navigate this website
+- I want to know a little bit about Marco Deb
 
 ### Wireframe mockups:
 
