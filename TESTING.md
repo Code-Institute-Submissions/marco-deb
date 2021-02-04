@@ -235,77 +235,81 @@ Answer:
 
 - This website offers several books, courses and meditations about physical and mental health and personal development.
 
-The main channel to answer this need will be through social media, the newsletter and also the blog. Through these channels the company will go deeper into this topic.
-
-The website provide several links to Mavera’s social media.
-
-- There are links to Mavera’s social media in the footer of each page
-- There are links to Mavera’s social media in the contact form
-- There are links to Mavera’s social media on the shop page
-
-The website provide a newsletter that answers this need.
-A newsletter signup form can be found on the about page.
-
-The blog is a feature that is left to implement.
-
 ### User Story item 8:
 
-As a visitor to this website, I want to learn the dangers of non organic deodorants.
+As a visitor to this website I want to know about product prices.
 
 Answer:
 
-This website only mention about the dangers of using non organic deodorants. This is mentioned in the about section.
-The company will spread more awareness on this topic in newsletter, blog and social media.
+- The price for every product on this website is clearly shown. The price for all products are highlighted with a yellow color.
 
-- The user will find a newsletter signup form on the about page
-- The user will find several links to the company's social media pages, where they will be posting about this topic.
-- A feature left to implement is a blog. There will be posts about this topic in the company's blog
+See the images below.
+
+Product price images.
+![Product Price](assets/readme-images/price1.png)
+![Product Price](assets/readme-images/price2.png)
 
 ### User Story item 9:
 
-As a customer or a potential customer, I want to know the price of the product.
+As a visitor to this website I want to easily navigate this website
 
 Answer:
 
-- The price is mentioned on the shop page in the retailers section.
-- This website provide links to the company's webshops where the user can learn about product prices.
+- The Navbar. The navbar can be found at the top of all pages on this website. From the navbar, the user can navigate to all pages on this website on this website, except the terms page, privacy policy page and the download page. See the images below.
 
-See the images below.
+Navbar: Laptop version
+![Navbar](assets/readme-images/navbar.png)
 
-![price image](assets/images/testing-images/retailers.png)
+Navbar: Mobile version
+![Navbar](assets/readme-images/navbar-mobile.png)
 
-![webshop links image](assets/images/testing-images/webshop-links.png)
+- The footer. The footer can be found in the bottom af all pages on this website. In the footer there are links to all pages on the website, including to the terms page and the privacy policy page, except for the contact page. There no link to the contact page in the footer because there is a contact form in the footer. See the images below.
+
+Footer image.
+![Footer](assets/readme-images/footer.png)
+
+- There’s no link to the download page on this website because the user is supposed to receive a link to this page after they have filled in their name and email address in the download meditation section. See the images below.
+
+- From the navbar the visitor can navigate to three different product pages. Courses, Books and Meditations. From these pages the visitor can find all the products that this website has to offer.
+
+  - The Courses page shows the visitor all the different courses.
+  - The Books page shows the visitor all the different books.
+  - The Meditations page shows the visitor all the different meditations.
+
+- The Banner image contains links to the Courses, Books and Meditation pages to help the visitor navigate. See image below.
+
+Banner image links.
+
+![Banner image](assets/readme-images/banner-image.png)
+
+- Product overview. The next section on the home page right after the banner is a product overview. It shows that this website has courses, books and meditations to offer to the visitor. See the image below.
+
+Products section image.
+![Product overview](assets/readme-images/product-overview.png)
+
+- Customer guide section. In the bottom of the home page just before the footer there is a section intended to guide the visitor to find what they’re looking for. There are three categories that the visitor can choose from. The categories are Mind, body and business. Each category has a button that the user can click. When they click one of the categories, a div opens up with different products that matches the chosen category. See the image below.
+
+Customer Guide Image.
+![Customer guide](assets/readme-images/customer-guide2.png)
 
 ### User Story item 10:
 
-As a customer or a potential customer, I want to know where I can buy the products.
+As a visitor to this website I want to know a little bit about Marco Deb
 
 Answer:
 
-- The retailers section on the shop page tells the user which retailers ( in Sweden ) that sell the products. (See the retailers image in user story item 9 section)
-- There are links to the company webshops on the shop page. There is text that tells the user that the links will take them to the webshop. (See the images in user story item 9 section)
-- The Footer on all pages provide links to the company social media pages where they can buy the products. (See image below)
-- The products and about page have links to the shop page. On the shop page the user can find information on where to buy the products. (See image below)
-- The contact page provide links to the company's social media pages where they can buy the products.
-  See the images below.
+- If the user wants to know about Marco Deb they can find the About page in the navbar or in the footer. There's also links to Marco's social media channels where they can learn more.
 
-![Footer image](assets/images/testing-images/footer-image.png)
-
-![shop link image](assets/images/testing-images/popup-modal.png)
+  ![About ](assets/readme-images/about.png)
 
 ### User Story item 11:
 
-As a customer or a potential customer, I want to know about the ingredients in the products.
+As a visitor to this websiteI want to contact Marco Deb
 
 Answer:
 
-- The user can find out about the ingredients of each individual product by clicking the read more button on the products card.
-- The bottle image of each product has the text 100% natural to ensure the user that it is only natural ingredients.
-- The texts on the home page tells the user that there is only natural ingredients in all products.
-- The mission and vision text on the about page tells the user that there is only natural organic ingredients in all products.
+- To contact Marco Deb the user can find a link in the navbar to the contact page. There’s also a contact form in the footer on all pages. The visitor can also contact Marco via his social media channels. There are links in the footer, the About and contact pages to Marco’s social media channels. See images Below.
 
-See the images below.
-
-![ingredients image](assets/images/testing-images/ingredients.png)
-
-![deodorant image](assets/images/bottle-image.jpg)
+  ![Contact](assets/readme-images/contact.png)
+  ![Contact](assets/readme-images/social-footer.png)
+  ![Contact](assets/readme-images/social-about.png)
