@@ -2,7 +2,7 @@
 
 [Main README.md file](README.md)
 
-[View the website in GitHub Pages ](https://github.com/Marc-Solution/marco-deb)
+[View the website in GitHub Pages ](https://marc-solution.github.io/marco-deb/)
 
 ## Table of contents
 
