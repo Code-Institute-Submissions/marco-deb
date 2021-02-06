@@ -76,7 +76,7 @@ Read below about the different browsers I tested.
 
 ### Firefox browser:
 
-In Firefox it doesn’t work. When you click the link the player opens up, but you are not able to download the mp3 file to your computer. But for some reason it works if you copy the link and paste it into the browser. The player will then open up and it is possible to download th mp3 file. I don’t know why it is like this and I don’t know how to solve it. I tested this in two different computers with the same result.
+In Firefox it doesn’t work. When you click the link the player opens up, but you are not able to download the mp3 file to your computer. But for some reason it works if you copy the link and paste it into the browser. The player will then open up and it is possible to download the mp3 file. I don’t know why it is like this and I don’t know how to solve it. I tested this in two different computers with the same result.
 
 ### My solution for this bug:
 
@@ -100,8 +100,6 @@ I created a separate download page and I provided an extra link to that page in 
 After testing the code in the w3 html validator, there where several warnings and some errors.
 One error was that I had placed a buttons in anchor tags. I corrected this.
 There where several other warnings and errors that was from code that I have not created. These came from the script tags i’ve inserted to my html that links to libraries. So there’s not much I can do about it. I had the same issue in my milestone project 1. At that time I wrote to tutor assistance and they said it was ok as long as I mention it in the readme file. Se image below.
-
-There where some errors in the code that I've written. It was that I had placed buttons inside anchor tags. I corrected that.
 
 ![HTML Test](assets/readme-images/html-test.png)
 
