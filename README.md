@@ -41,7 +41,7 @@
 
 ### A short description of this website
 
-This is a web-site for Marco Deb. The intention of this web-site is to show case and sell Courses Books and recorded Meditations.
+This is a web-site for Marco Deb. The intention of this web-site is to showcase and sell Courses Books and recorded Meditations.
 
 # UX
 
@@ -86,13 +86,13 @@ I wanted the design to be simple and calming. Therefor I chose images of nature 
 
 ### Existing Features
 
-### All pages contains:
+- A responsive navbar on all pages with links to each respective page on the website, exept for the terms and privacy policy pages. There are links to these pages in the footer. The navbar is on the top of the page in all pages.
 
-- A responsive navbar with links to each respective page on the website, exept for the terms and privacy policy pages. There are links to these pages in the footer. The navbar is on the top of the page in all pages.
 - The logo in the navbar. Clicking the logo returns users to the home page
-- A banner image with nature and meditation. On the banner image there are links to the courses, books and meditation pages.
 
-- A Footer on all pages with links to navigate the website,Links to terms and privacy policy pages, contact information, a contact form and social media links. The social media links opens a new tab in the browser. The footer is in the bottom of all pages.
+- A banner image with nature and meditation on the home page. On the banner image there are links to the courses, books and meditation pages.
+
+- A Footer on all pages with links to navigate the website, Links to terms and privacy policy pages, contact information, a contact form and social media links. The social media links opens a new tab in the browser. The footer is in the bottom of all pages.
 
 - The option to change background color on all product pages, terms page, privacy policy page and about page. The user has the option to choose between dark or light background themes. The color of the text also changes when changing theme. The settings the user chooses are stored in the local storage.
 
@@ -101,9 +101,13 @@ I wanted the design to be simple and calming. Therefor I chose images of nature 
 - Download a meditation. The user can fill in his or her name and email address. They will receive an email containing a link to download the meditation. The service used to provide this feature is Emailjs.com
 
 - Customer Guide. A guide to help the user to find what they’re looking for.
+
   - The purpose of this feature is to help the user to easier find what they are looking for.
-  - The user is asked the question “ What are you looking to elevate?” The is presented with three categories to choose from. Mind, Body or Business.
+
+  - The user is asked the question “ What are you looking to elevate?” They are presented with three categories to choose from. Mind, Body or Business.
+
   - When the user chooses one category, products will be shown that hopefully will satisfy the users needs.
+
   - The idea is that this feature can evolve into some kind of survey that will guide the user to find products that best fulfills their needs.
 
 ![The Customer Guide Feature](assets/readme-images/customer-guide.png)
@@ -112,7 +116,7 @@ I wanted the design to be simple and calming. Therefor I chose images of nature 
 
 Contents of the home page:
 
-- On the home page there is a large banner image of A person meditation in beautiful nature. The purpose is that the user instantly will know that this page is about meditation and personal development. There’s text on the banner image that reveals that this website offers courses, books and meditations. (See image below)
+- On the home page there is a large banner image of A person meditating in beautiful nature. The purpose is that the user instantly will know that this page is about meditation and personal development. There’s text on the banner image that reveals that this website offers courses, books and meditations. (See image below)
 
 ![Banner image](assets/readme-images/banner-image.png)
 
@@ -120,7 +124,7 @@ Contents of the home page:
 
 ![Banner image](assets/readme-images/how-marco-can-help.png)
 
-- Download a meditation section. In this section the user can download a free meditation. There’s a short text describing the meditation followed by a download button. When clicking the button a modal popup opens. In the modal the user can fill in a form that asks for the users name and email address. After submitting, a download link will be sent to the email address the user gave. (See image below)
+- Download a meditation section. In this section the user can download a free meditation. There’s a short text describing the meditation followed by a download button. When clicking the button a modal popup opens. In the modal the user can fill in a form that asks for the users name and email address. After submitting, a download link will be sent to the email address the user gave. The service used to provide this feature is Emailjs.com (See image below)
 
 ![Download meditation section](assets/readme-images/download-image.png)
 
@@ -161,11 +165,11 @@ Contents of the a products page:
 
 ![Cover image for course](assets/readme-images/course-cover.png)
 
-- After this is the user is presented with the option to choose between three different font sizes. The settings will be stored in the local storage.
+- After this the user is presented with the option to choose between three different font sizes. The settings will be stored in the local storage.
 
 ![Font size options](assets/readme-images/font-size.png)
 
-- Next, the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. The settings will be stored in the local storage.
+- Next, the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for their eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. The settings will be stored in the local storage.
 
 ![Dark & Light buttons](assets/readme-images/buttons-light.png)
 ![Dark & Light buttons](assets/readme-images/buttons-dark.png)
@@ -176,13 +180,13 @@ Contents of the a products page:
 
 ## Books page
 
-The books page is the same as the courses page, except that there is books instead of courses on the cards. When clicking on the read more button the user is lead to the product page for that book. The product page for the book is the same as a product page for a course, except that it is a book, and the buy button leads to amazon.com.
+The books page is the same as the courses page, except that there is books instead of courses on the cards. When clicking on the read more button the user is lead to the product page for that book. The product page for the book is the same as a product page for a course, except that it is a book, and the buy buttons leads to amazon.com.
 
 ![Book Page image](assets/readme-images/book-page.png)
 
 ## Meditations page
 
-The meditations page is the same as the courses and books page, except that there is meditations instead of courses or books on the cards. When clicking on the read more button the user is lead to the product page for that meditation. The product page for the book is the same as a product page for a course or book, except that it is a meditation, and the buy button leads to gumroad.com
+The meditations page is the same as the courses and books page, except that there is meditations instead of courses or books on the cards. When clicking on the read more button the user is lead to the product page for that meditation. The product page for the book is the same as a product page for a course or book, except that it is a meditation, and the buy buttons leads to gumroad.com
 
 ![Meditation Page image](assets/readme-images/meditation-page.png)
 
@@ -218,7 +222,7 @@ These pages contains the terms and privacy policy. These pages also has the opti
 ### Features Left to Implement
 
 - A blog. The purpose for the blog is content marketing and brand awareness.
-- The option to choose languages.
+- The option to choose languages so that it can reach more people.
 
 ## Technologies Used
 
@@ -295,11 +299,11 @@ These steps were taken to deploy this page to GitHub Pages from its Github repos
 
 ## Code
 
-This project uses bootstrap4
-
 - navbar
 
-  - I used the same navbar that I used on the [Mavera](https://github.com/Marc-Solution/mavera) project.
+  - The code for this navbar I got from the [bootstrap documentation.](https://getbootstrap.com/docs/5.0/components/navbar/)
+
+https://getbootstrap.com/docs/5.0/components/navbar/
 
 - Footer
 
@@ -307,17 +311,17 @@ This project uses bootstrap4
 
 - Modal Popup
 
-  - The code for the modal I got from the bootstrap documentation. I changed the code a little bit. I use the modal in the download meditation section.
+  - The code for the modal I got from the [bootstrap documentation.](https://getbootstrap.com/docs/5.0/components/modal/) I changed the code a little bit. I use the modal in the download meditation section.
   - The changes I did for the products modal was that I removed the modal header and added a background image. I inserted a text with with some information about the download process.
   - The code for the sign up form used in the modal I got from https://bootsnipp.com/snippets/AlM7P
 
 - EmailJS
 
-  - The code for the EmailJS service I got from following the instructions in the EmailJS classes in the Code Institute course.
+  - The code for the [EmailJS](https://www.emailjs.com/) service I got from following the instructions in the EmailJS classes in the Code Institute course.
 
 - Bootstrap
 
-  - I got the code for the all cards on the website from the bootstrap library.
+  - I got the code for the all cards on the website from the [bootstrap documentation.](https://getbootstrap.com/docs/5.0/components/card/)
 
 - Dark & Light background option
 
