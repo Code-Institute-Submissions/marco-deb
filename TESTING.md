@@ -10,7 +10,7 @@
 2. [Bugs](#Bugs)
 3. [Changes made after testing](#changes-made-after-testing)
 4. [W3 validator](#w3-validator)
-5. [Contact and newsletter forms](#contact-and-newsletter-forms)
+5. [Contact and download forms](#contact-and-download-forms)
 6. [Links and buttons](#links-and-buttons)
 7. [Alt attribute for images](#alt-attribute-for-images)
 8. [Testing the user stories](#testing-the-user-stories)
@@ -87,11 +87,15 @@ I created a separate download page and I provided an extra link to that page in 
 
 # Changes made after testing
 
-When testing the products cards on mobile size and tablet size in Google chrome, Firefox and Opera it looked strange. The text got very stretched out and it didn’t look good. I also tested this on a real Iphone and a Samsung Galaxy with the same result. I solved this by removing the product info text from the card and changed it to a button with the text Read more. This button opens a modal with the product info text.
+- I changed the place of the dark and light theme buttons. Instead of having them in the top of the page I decided to have them just before the text starts. I did this because I thought it looked better.
 
-# W3 validator
+- While I was building this website I decided to not include the articles, because it would take me to long time to write all the articles. Instead I did a meditations page.
 
-#### HTML validator - https://validator.w3.org/
+- While creating this page I thought something was missing, so I added the customer guide section in the bottom of the home page just before the footer.
+
+# Testing with W3 validator and Jshint
+
+## HTML validator - https://validator.w3.org/
 
 I tested the code in the w3 html validator. I got two errors. The first error was in the what customers say section in the index.html page. The problem was that there was no header directly after the section tag. The header came later in the section. I moved the header so that it comes directly after the section tag. It worked and it was approved.
 
@@ -102,7 +106,7 @@ The second error was in the same section. It had to do with the customer review 
 
 After doing these changes the code was approved by W3 html validator.
 
-#### CSS validator - https://jigsaw.w3.org/css-validator/
+## CSS validator - https://jigsaw.w3.org/css-validator/
 
 After testing the code in the CSS validator, there were two errors. But this time the errors where not from any code I've written in my workspace. The errors were from the bootstrap library. The errors were found in this link:
 
@@ -112,23 +116,61 @@ There where also some warnings. Again it was not from any code I’ve written. I
 
 I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README.
 
+## Jshint - https://jshint.com/
+
+I used Jshint to test my Javascript code.
+
+### Testing main.js in jshint.
+
+I had no major issues in my javascript code.
+
+I had some missing semicolons. So I fixed that.
+
+There where also two undefined variables in the dark theme light theme function. I got all that code from the Setting Properties - Part 2 lesson from Code Institute. I let that be since everything is working as it should. See image below
+
+![Undefined variables](assets/readme-images/undefined.png)
+
+It said I have three unused variables, lightTheme, small and slideToggleElement. I also let that be as it is because those are names of functions. I did not understand all the feedback I got from jshint. See image below.
+
+![Unused variables](assets/readme-images/unused.png)
+
+### Testing sendEmail.js in jshint.
+
+The feedback I got from using jshint was that I have one undefined variable emailjs, and two unused variables, sendMail and send. sendMail and send are the names of the functions. I let the code be as it is since it is working as it should. I did not understand all the feedback I got from jshint.
+
+See Image below.
+
+![Unused and undefined variables](assets/readme-images/undefined-unused.png)
+
 # Links and buttons
 
 - I have tested all the links in the navbar and they work as the should.
-- I have tested all the links in the footer. They work as they should. They open up in a new tab. The links go to the company’s Instagram and Facebook pages.
+- I have tested all the page links in the footer. They work as they should.
 - I have tested all internal links and buttons. They all work as they should.
+- I have tested the social media links in the footer, about page and contact page. They work and they will open up a new tab in the browser.
 
-# Contact and newsletter forms
+# Contact and download forms
 
-I tested the contact and newsletter forms.
+Testing the contact form.
 
 - When submitting without any message an error message about the required fields appears.
 - When submitting with an invalid email address an error message about the required fields appears.
-- When submitting the form with all inputs valid a success message opens in a new tab.
+- When submitting the contact form with all inputs valid a new page opens with a confirmation message. The user will also recieve a confirmation email.
+- This works for the contact form on the cantact page aswell as the contact form in the footer.
+
+![Mail confirmation](assets/readme-images/mail-confiramtion.png)
+
+Testing the download a meditation form.
+
+- When submitting without any message an error message about the required fields appears.
+- When submitting with an invalid email address an error message about the required fields appears.
+- When submitting the form with all inputs valid a new page opens with a confirmation message. The user will recieve an email with a download link.
+
+![Mail confirmation](assets/readme-images/download-confiramtion.png)
 
 # Alt attribute for images
 
-For the banner images on the website I use a div with the image as background. I used the title attribute in the div element containing the banner images to describe the image instead of the alt attribute since an alt attribute won’t work on a div.
+For the banner image on the website I use a div with the image as background. I used the title attribute in the div element containing the banner images to describe the image instead of the alt attribute since an alt attribute won’t work on a div. I did the same thing for the background image for the download a meditation section on the home page.
 
 Other than that, all images has an alt attribute describing the image.
 
@@ -225,8 +267,6 @@ Answer:
 
 - This website offers several books and courses about physical and mental health
 
-See the image below.
-
 ### User Story item 7:
 
 As a visitor to this website I want to find books about mental training, meditation and health.
@@ -268,7 +308,7 @@ Navbar: Mobile version
 Footer image.
 ![Footer](assets/readme-images/footer.png)
 
-- There’s no link to the download page on this website because the user is supposed to receive a link to this page after they have filled in their name and email address in the download meditation section. See the images below.
+- There’s no link to the download page on this website because the user is supposed to receive a link to this page after they have filled in their name and email address in the download meditation section.
 
 - From the navbar the visitor can navigate to three different product pages. Courses, Books and Meditations. From these pages the visitor can find all the products that this website has to offer.
 
