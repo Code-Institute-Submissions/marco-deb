@@ -7,7 +7,6 @@
 1. [MarcoDeb](#Marco-Deb)
 
    - A short description of this website
-   - There is two types of customer we aim for
 
 2. [Ux](#ux)
 
@@ -91,8 +90,9 @@ I wanted the design to be simple and calming. Therefor I chose images of nature 
 
 - A responsive navbar with links to each respective page on the website, exept for the terms and privacy policy pages. There are links to these pages in the footer. The navbar is on the top of the page in all pages.
 - The logo in the navbar. Clicking the logo returns users to the home page
-- A banner image with nature and meditation.
-- A Footer on all pages with links to navigate the website,Links to terms and privacy policy pages, contact information, a contact form and social media links. social media links. The social media links opens a new tab in the browser. The footer is in the bottom of all pages.
+- A banner image with nature and meditation. On the banner image there are links to the courses, books and meditation pages.
+
+- A Footer on all pages with links to navigate the website,Links to terms and privacy policy pages, contact information, a contact form and social media links. The social media links opens a new tab in the browser. The footer is in the bottom of all pages.
 
 - The option to change background color on all product pages, terms page, privacy policy page and about page. The user has the option to choose between dark or light background themes. The color of the text also changes when changing theme. The settings the user chooses are stored in the local storage.
 
@@ -157,18 +157,22 @@ Contents of the e-Courses page:
 
 Contents of the a products page:
 
-- The first thing after the navbar the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. The settings will be stored in the local storage.
-
-![Dark & Light buttons](assets/readme-images/buttons-light.png)
-![Dark & Light buttons](assets/readme-images/buttons-dark.png)
-
-- Next there’s a headline with the course name, and then cover image for the course, followed by a buy button. The button is linked to Udemy, that will open up in a new tab.
+- The first thing after the navbar there’s a headline with the course name, and then cover image for the course, followed by a buy button. The button is linked to Udemy, that will open up in a new tab.
 
 ![Cover image for course](assets/readme-images/course-cover.png)
 
 - After this is the user is presented with the option to choose between three different font sizes. The settings will be stored in the local storage.
 
 ![Font size options](assets/readme-images/font-size.png)
+
+- Next, the user will be presented with the option to choose a Dark or light background color for the page. for many people it is easier for the eyes to read on a dark background. Therefor I wanted to provide this option to make it easier and more pleasant for the user to read. Also the font color also changes to contrast the chosen background color. The settings will be stored in the local storage.
+
+![Dark & Light buttons](assets/readme-images/buttons-light.png)
+![Dark & Light buttons](assets/readme-images/buttons-dark.png)
+
+- After this there'e a text about the product followed by another buy button and a back to courses button.
+
+![Product text](assets/readme-images/product-text.png)
 
 ## Books page
 
@@ -178,7 +182,7 @@ The books page is the same as the courses page, except that there is books inste
 
 ## Meditations page
 
-The meditations page is the same as the courses and books page, except that there is meditations instead of courses or books on the cards. When clicking on the read more button the user is lead to the product page for that meditation. The product page for the book is the same as a product page for a course or book, except that it is a meditation, and the buy button leads to gumroad.com.
+The meditations page is the same as the courses and books page, except that there is meditations instead of courses or books on the cards. When clicking on the read more button the user is lead to the product page for that meditation. The product page for the book is the same as a product page for a course or book, except that it is a meditation, and the buy button leads to gumroad.com
 
 ![Meditation Page image](assets/readme-images/meditation-page.png)
 
@@ -226,6 +230,7 @@ These pages contains the terms and privacy policy. These pages also has the opti
 - JavaScript
 - Fontawesome
 - Google fonts
+- EmailJs service
 
 ## New features added or removed after testing
 
@@ -304,6 +309,7 @@ This project uses bootstrap4
 
   - The code for the modal I got from the bootstrap documentation. I changed the code a little bit. I use the modal in the download meditation section.
   - The changes I did for the products modal was that I removed the modal header and added a background image. I inserted a text with with some information about the download process.
+  - The code for the sign up form used in the modal I got from https://bootsnipp.com/snippets/AlM7P
 
 - EmailJS
 
@@ -317,20 +323,25 @@ This project uses bootstrap4
 
   - The code for this function I got from following the instructions from the Setting Properties - Part 2 lesson from Code Institute.
 
-- Privacy policy and Terms
-
-  - The text for the privacy policy and the terms page i got from [jayshetty.me](https://jayshetty.me/) I just changed some names and dates.
-
-  - [Privacy policy](https://jayshetty.me/privacy/)
-  - [Terms](https://jayshetty.me/terms/)
+- Font size option.
+  - I learned how do the code for the font size option from https://www.w3schools.com/js/tryit.asp?filename=tryjs_intro_style
 
 ## Content
 
-All texts for this web-site was written by Marco Deb, except for the Privacy policy and Terms pages. (See Privacy policy and Terms above for credits)
+All texts for this web-site was written by Marco Deb, except for the Privacy policy and Terms pages.
+
+The text for the privacy policy and the terms page i got from [jayshetty.me](https://jayshetty.me/) I just changed some names and dates.
+
+- [Privacy policy](https://jayshetty.me/privacy/)
+- [Terms](https://jayshetty.me/terms/)
 
 ## Media
 
-All cover images is Designed by Marco Deb
+All product cover images are Designed by Marco Deb
+
+## Meditation to download.
+
+The meditation to download was created and recorded By marco Deb.
 
 ### Logo image
 
@@ -356,21 +367,21 @@ The background image on the download meditation section was obtained from https:
 
 ### Courses Cover images
 
-The cover image for the Happy Mind Training course was obtained from https://www.vectorstock.com/royalty-free-vector/meditation
+The image used for the cover image for the Happy Mind Training course was obtained from https://www.vectorstock.com/royalty-free-vector/meditation
 
-The cover image for the Happy body Training course was obtained from https://www.vectorstock.com/royalty-free-vector/modern-colorful-vitruvian-man-vector-15018710
+The image used for the cover image for Happy body Training course was obtained from https://www.vectorstock.com/royalty-free-vector/modern-colorful-vitruvian-man-vector-15018710
 
 The cover image for the Breathe course was obtained from https://www.vectorstock.com/royalty-free-vector/cartoon-cute-art-with-mandala-and-breagradient-vector-21074703
 
-The cover image for the Pure Love Chi Gong course was obtained from https://wallpaperaccess.com/tai-chi
+The image used for the cover image for Pure Love Chi Gong course was obtained from https://wallpaperaccess.com/tai-chi (You have to scroll down pretty far to find the image)
 
 ### Books Cover images
 
-The cover image for the Believe It book was obtained from https://www.clipartmax.com/middle/m2i8m2Z5N4m2Z5K9_iridescent-monarch-butterfly-2-by-%40gdj-a-colorful-real-rainbow-monarch-butterfly/
+The image used for the cover image for the Believe It book was obtained from https://www.clipartmax.com/middle/m2i8m2Z5N4m2Z5K9_iridescent-monarch-butterfly-2-by-%40gdj-a-colorful-real-rainbow-monarch-butterfly/
 
-The cover image for the Creative Abundance book was obtained from https://www.cleanpng.com/png-tree-planting-paper-organization-growth-park-1264502/
+The image used for the cover image for Creative Abundance book was obtained from https://www.cleanpng.com/png-tree-planting-paper-organization-growth-park-1264502/
 
-The cover image for The Succeaseful entrepreneur book was obtained from
+The image used for the cover image for The Succeaseful entrepreneur book was obtained from
 https://depositphotos.com/324458740/stock-illustration-water-wave-logo-template.html
 
 The cover image for the book Words About Letting Go was created by Marco Deb

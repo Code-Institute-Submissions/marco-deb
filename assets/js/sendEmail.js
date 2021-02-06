@@ -1,3 +1,5 @@
+// The code for the EmailJS service I got from following the instructions in the EmailJS classes in the Code Institute course.
+
 // Function for downloading meditation
 function sendMail(contactForm) {
     emailjs.send('gmail', 'rosie', {

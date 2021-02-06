@@ -34,8 +34,6 @@ function large() {
 
 //----------------------------------------------------
 
-// when the document has loaded
-// https://api.jquery.com/ready/
 $().ready(function(){
     if ( localStorage.getItem("userHasDarkTheme") == "true") darkTheme();
 
