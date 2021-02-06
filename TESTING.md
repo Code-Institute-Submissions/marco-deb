@@ -9,7 +9,7 @@
 1. [Browsers tested](#browsers-tested)
 2. [Bugs](#Bugs)
 3. [Changes made after testing](#changes-made-after-testing)
-4. [W3 validator](#w3-validator)
+4. [W3 validator](#Testing-with-W3-validator-and-Jshint)
 5. [Contact and download forms](#contact-and-download-forms)
 6. [Links and buttons](#links-and-buttons)
 7. [Alt attribute for images](#alt-attribute-for-images)
@@ -97,14 +97,13 @@ I created a separate download page and I provided an extra link to that page in 
 
 ## HTML validator - https://validator.w3.org/
 
-I tested the code in the w3 html validator. I got two errors. The first error was in the what customers say section in the index.html page. The problem was that there was no header directly after the section tag. The header came later in the section. I moved the header so that it comes directly after the section tag. It worked and it was approved.
+After testing the code in the w3 html validator, there where several warnings and some errors.
+One error was that I had placed a buttons in anchor tags. I corrected this.
+There where several other warnings and errors that was from code that I have not created. These came from the script tags i’ve inserted to my html that links to libraries. So there’s not much I can do about it. I had the same issue in my milestone project 1. At that time I wrote to tutor assistance and they said it was ok as long as I mention it in the readme file. Se image below.
 
-The second error was in the same section. It had to do with the customer review images. I am not really sure exactly what the second error was. I changed these two things and it got approved.
+There where some errors in the code that I've written. It was that I had placed buttons inside anchor tags. I corrected that.
 
-- The div that contained the customer images had a class attribute but with no value. I removed that class attribute from the div tag.
-- Secondly, the hight and width properties for the customer images was in the img tag. I moved the hight and width properties to my style.css.
-
-After doing these changes the code was approved by W3 html validator.
+![HTML Test](assets/readme-images/html-test.png)
 
 ## CSS validator - https://jigsaw.w3.org/css-validator/
 
