@@ -107,13 +107,17 @@ There where some errors in the code that I've written. It was that I had placed 
 
 ## CSS validator - https://jigsaw.w3.org/css-validator/
 
-After testing the code in the CSS validator, there were two errors. But this time the errors where not from any code I've written in my workspace. The errors were from the bootstrap library. The errors were found in this link:
+After testing the code in the CSS validator, there were two errors. But the errors where not from any code I've written in my workspace. The errors were from the bootstrap library. The errors were found in this link:
 
 https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css
 
-There where also some warnings. Again it was not from any code I’ve written. It came from the bootsnipp code I use for the newsletter. The warning came from this link script https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js
+There where also several warnings. Again it was not from any code I’ve written. It came from this link:
 
-I wrote to tutor assistance. They said it will be ok as long as I mention it here in this README.
+https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
+
+I had the same issue in my milestone project 1. At that time I wrote to tutor assistance and they said it was ok as long as I mention it in the readme file. Se image below.
+
+![HTML Test](assets/readme-images/css-test.png)
 
 ## Jshint - https://jshint.com/
 
